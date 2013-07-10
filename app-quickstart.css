@@ -1,4 +1,4 @@
-body,html	{font-size:100%;}
+body,html	{font-size:100%; background:#f8f7f2;}
 
 #appTemplates {display:none;} /* container for all templates. should be hidden */
 
@@ -29,7 +29,14 @@ table {
 td	{vertical-align:top;}
 td.valignMiddle	{vertical-align: middle;}
 
-
+div#appPreView table {
+    margin: 0 auto;
+}
+div#appPreView table div#loader {
+    text-align: center;
+	color: #63503B;
+    font-size: 12px;
+}
 
 /* feel free to delete these or override in your own .css file */
 h1, h2, h3, h4, h5, h6	{padding:0; margin:0;}
@@ -45,6 +52,358 @@ input.numberInput	{width:50px}
 button:focus	{outline:none;}
 
 .zform_number	{width:50px;}
+/* navigation */
+div#container
+	{
+		margin: 0px auto;
+		position: relative;
+		width: 1020px;
+		
+	}
+div#container div#topNav
+{
+background: url(images/background-top-nav.png) repeat-x;
+height: 30px;
+position: relative;
+width: 100%;
+}
+div#container div#topNav div#topNavContent
+{
+color: #8f897b;
+font-family: Helvetica;
+height: 30px;
+margin: 0px auto;
+position: relative;
+width: 960px;
+background:url(images/topnav.gif) repeat-x;
+background-color:#eaeae4;
+}
+div#container div#topNav div#topNavContent img, div#container div#topNav div#topNavContent p
+{
+float: left;
+position: relative;
+}
+div#container div#topNav div#topNavContent img
+{
+margin-top: 7px;
+padding-right: 11px;
+}
+div#container div#topNav div#topNavContent img:first-child
+{
+margin-left: 12px;
+}
+div#container div#topNav div#topNavContent p
+{
+color: #FFFFFF;
+font-family: Helvetica;
+font-size: 12px;
+margin-top: 8px;
+}
+div#container div#topNav div#topNavContent p:not(:last-child)
+{
+padding-right: 51px;
+}
+div#container div#topNav div#topNavContent p a
+{
+color: #FFFFFF;
+font-weight:bold;
+}
+div#container div#header
+{
+background: url(images/background-header.png) repeat-x;
+height: 124px;
+position: relative;
+width: 100%;
+}
+div#container div#header div#headerContent
+{
+height: 124px;
+margin: 0px auto;
+position: relative;
+width: 960px;
+}
+div#container div#header div#headerContent img#logo
+{
+cursor: pointer;
+left: 10px;
+position: relative;
+top: 11px;
+}
+div#container div#header div#headerContent input#txtSearch
+{
+height: 32px;
+left: 470px;
+position: absolute;
+top: 46px;
+width: 125px;
+color:#999;
+font-size:14px;
+padding:0 10px;
+}
+#btnTopNavSearch
+{	
+cursor: pointer;
+height: 33px;
+left: 617px;
+position: absolute;
+top: 47px;
+width: 35px;
+}
+div#container div#header div#headerContent div#headerFreeShipping
+{
+background: url(images/header-free-shipping.png);
+height: 54px;
+left: 730px;
+position: absolute;
+width: 220px;
+top: 20px;
+}
+div#container div#header div#headerContent div#headerFreeShipping img
+{
+left: -20px;
+position: absolute;
+top: -10px;
+}
+div#container div#header div#headerContent a#btnSocialFacebook
+{
+cursor: pointer;
+left: 776px;
+position: absolute;
+top: 94px;
+}
+div#container div#header div#headerContent a#btnSocialTwitter
+{
+cursor: pointer;
+left: 823px;
+position: absolute;
+top: 94px;
+}
+div#container div#header div#headerContent a#btnSocialYoutube
+{
+cursor: pointer;
+left: 869px;
+position: absolute;
+top: 94px;
+}				
+div#container div#header div#headerContent a#btnSocialMail
+{
+cursor: pointer;
+left: 916px;
+position: absolute;
+top: 94px;
+}
+
+div#container div#footer
+{
+background: #FFF;
+height: 210px;
+width: 100%;
+}
+div#container div#footer div#footerContent
+{
+height: 358px;
+margin: 0px auto;
+width: 960px;
+}
+div#container div#footer div#footerContent div#footerLinks
+{
+height: 290px;
+width: 960px;
+}	
+div#container div#footer div#footerContent div#footerLinks > ul
+{
+float: left;
+margin-top:5px;
+padding-right:20px;
+					}
+						div#container div#footer div#footerContent div#footerLinks > ul li
+						{
+							color: #FFFFFF;
+							font-size: 14px;
+							list-style: none;
+						}		
+						div#container div#footer div#footerContent div#footerLinks > ul li:not(:first-child)
+						{
+							padding-top:8px;
+						}			
+							div#container div#footer div#footerContent div#footerLinks > ul li a
+							{
+								color: #000;
+								text-decoration: none;
+							}
+								div#container div#footer div#footerContent div#footerLinks > ul li a:hover
+								{
+									text-decoration: underline;
+								}
+						div#container div#footer div#footerContent div#footerLinks > ul li:first-child, div#container div#footer div#footerContent div#footerSubscribe table tr td:first-child
+						{
+							color: #666666;
+							font-family:'Conv_BebasNeue',Sans-Serif;
+							font-size: 15px;
+						}
+						div#container div#footer div#footerContent div#footerLinks div#footerSubscribe 
+						{
+							float: left;
+							position: relative;
+							top:60px;
+						}						
+						div#container div#footer div#footerContent div#footerLinks div#footerSubscribe table
+						{
+
+						}					
+						div#container div#footer div#footerContent div#footerLinks div#footerSubscribe table tr td
+						{
+							
+						}
+						div#container div#footer div#footerContent div#footerLinks div#footerSubscribe table tr:not(:first-child) td
+						{
+							padding-top: 6px;
+						}						
+							div#container div#footer div#footerContent div#footerLinks div#footerSubscribe table tr td input
+							{
+								height: 35px;
+								width: 177px;
+								padding:0 10px;
+								color:#999999;
+							}
+							div#container div#footer div#footerContent div#footerLinks div#footerSubscribe table tr td img#btnFooterSubscribe
+							{
+								cursor: pointer;
+								margin:4px 0 0;
+								
+							}
+					div#container div#footer div#footerContent div#footerLinks div#footerSubscribe .appMessage
+					{
+						left: 1px;
+						opacity: 1;
+						position: absolute;
+						top: 9px;
+						width: 312px;
+						z-index: 1000;
+					}
+						div#container div#footer div#footerContent div#footerLinks div#footerSubscribe .appMessage button.stdMargin
+						{
+							left: 280px;
+							position: absolute;
+							top: 10px;
+							z-index: 1001;
+						}							
+				div#container div#footer div#footerContent div#copyright
+				{
+					color: #FFFFFF;
+					width: 960px;
+				}
+					div#container div#footer div#footerContent div#copyright p
+					{
+						font-family: Helvetica;
+						font-size: 12px;
+						margin-top: 27px;
+						text-align: center;
+					}
+					div#container div#footer div#footerContent div#copyright p a
+					{
+						font-weight: bold;
+						text-decoration: none;
+					}					
+						div#container div#footer div#footerContent div#copyright p a:hover
+						{
+							text-decoration: underline;
+						}					
+						div#container div#footer div#footerContent div#copyright p a:visited
+						{
+							color: #FFFFFF;
+						}							
+				div#container div#footer div#footerContent div#copyright
+				{
+					height: 68px;
+					width: 960px;
+				}
+				
+
+
+div#container div.nav
+		{
+			
+			height: 50px;
+			position: relative;
+			width: 100%;
+			border-bottom:1px solid #CCCCCC;
+			/*-moz-box-shadow:    1px 1px 5px 1px #222222;
+			-webkit-box-shadow: 1px 1px 5px 1px #222222;
+			box-shadow:         1px 1px 5px 1px #222222;*/				
+		}
+			div#container div.nav div.navContent
+			{
+				height: 50px;
+				margin: 0px -70px;
+				position: relative;
+				width: 960px;
+			}
+				div#container div.nav div.navContent > ul
+				{
+					height: 50px;
+					margin: 0px auto;
+					width: 850px;
+					padding:0px;
+				}
+					div#container div.nav div.navContent > ul > li
+					{
+						float: left;
+						height: 50px;
+						list-style: none;
+						overflow: show;
+						padding-left: 20px;
+						padding-right: 20px;
+						line-height:16px;
+					}				
+						div#container div.nav div.navContent > ul > li > a
+						{
+							color: #000;
+							font-family: 'Conv_BebasNeue';
+							font-size: 14px;
+							/*font-weight: bold;*/
+							position: relative;
+							text-decoration: none;
+							top: 18px;
+						}
+						.no-fontface div#container div.nav div.navContent > ul > li > a
+						{
+							font-family: Arial, Helvetica, sans-serif;
+							font-size: 14px;						
+						}
+							div#container div.nav div.navContent > ul > li > a:hover
+							{
+								
+							}
+
+.buyerLoggedIn .hideIfLoggedIn	{display:none;}
+
+.hideIfLoggedOut	{display:none;}
+
+.buyerLoggedIn .hideIfLoggedOut	{display: block;} /* may be 'block' */
+.buyerLoggedIn span.hideIfLoggedOut, .buyerLoggedIn a.hideIfLoggedOut	{display: inline;} /* ensures inline on span elements */
+.loginShow {display:none;}
+
+.buyerLoggedIn span.loginShow {display:inline-block;}
+
+.buyerLoggedIn .loginHide {display:none;}
+
+.hideIfLoggedIn{display:block;}
+.fl{float:left;font-size: 12px;padding: 8px 50px 0 0;}
+
+.leftCol {
+    float: left;
+    width: 210px;
+}
+.bottomMargin {
+    margin-bottom: 5px;
+}
+/*ul.listcat{margin:10px;}
+ul .listcat li{float: left;
+    left: -86px;
+    position: absolute;
+    top: 223px;
+    width: 187px;}*/
 
 /*
 classes used on menus that are toggled on/off. wrap offMenu around the default buttons and onMenu around buttons that get turned on.
