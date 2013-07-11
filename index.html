@@ -20,11 +20,11 @@ var _gaq = _gaq || {'push':function(){}} //here for testing. REPLACE BEFORE DEPL
 var myCreole;
 
 var app = {vars:{
-	"release":"20130710072310",  //increment this with each change. should solve caching issues. format: YYYYMMDDHHMMSS
+	"release":"20130711100420",  //increment this with each change. should solve caching issues. format: YYYYMMDDHHMMSS
 	"_clientid":"zmvc",
 	"baseURL":"", //used in non-local mode.
 	"checkoutAuthMode" : "required",//can be passive, active or required
-	"testURL":"http://Greatlookz.com/" //used ONLY if protocol is file: (for testing)
+	"testURL":"http://app.greatlookz.com" //used ONLY if protocol is file: (for testing)
 	},u:{},rq:[]};
 
 //set base url so images, css, js, etc all load from appropriate location once deployed.
@@ -107,7 +107,7 @@ app.u.loadScript(app.vars.baseURL+"app-quickstart-init.js");
 				<span class="fl">
 Welcome,
 <span class="loginShow username" onClick="return showContent('customer',{'show':'myaccount'});" ></span> <span class="loginShow"> <a href="#" onClick="app.ext.myRIA.u.handleLogoutActions(); return false;">Log Out</a></span>
-<span class="loginHide">Guest ( <a href="#" onClick="return showContent('customer',{'show':'myaccount'});">Login  </a><span>or</span> <a href="#" onclick="return showContent('customer',{'show':'newsletter'});"class='bindByAnchor' id="account">Sign Up</a> )</span>
+<span class="loginHide">Guest ( <a href="#" onClick="return showContent('customer',{'show':'myaccount'});">Login  </a><span>or</span> <a href="#" onClick="return showContent('customer',{'show':'newsletter'});"class='bindByAnchor' id="account">Sign Up</a> )</span>
         </span>
 		</div>
 		</div>
@@ -181,7 +181,7 @@ Welcome,
 					</ul>
                     <ul>
                      <li>SOCIAL NETWORKS</li>
-                     <li><a href="#" onclick="http://www.facebook.com/pages/Greatlookz/6243269177" target="_blank"><img src="images/facebook.gif"/>Check Out Our Facebook</a></li>
+                     <li><a href="#" onClick="http://www.facebook.com/pages/Greatlookz/6243269177" target="_blank"><img src="images/facebook.gif"/>Check Out Our Facebook</a></li>
                      <li><a href="https://twitter.com/greatlookz" target="_blank"><img src="images/twitter.gif"/>Tweet</a></li>
                      <li><a href="http://blog.greatlookz.com/" target="_blank"><img src="images/blog.gif"/>Our Blog</a></li> 
 					</ul>	
