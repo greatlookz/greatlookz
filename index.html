@@ -217,20 +217,22 @@ the homepageTemplate template is loaded into mainContentArea by default when the
           <div class="singupbox">
           <div class="signtitle"><img src="images/sign_uptitle.gif" /></div>
           <p>Enter your email address and receive coupons and special pricing updates by email</p>
-          <div class="singupfro">
+           
+        <div class="singupfro" style="display:none;">
           <form action="" method="get">
-            <label>Email</label>
-            <input />
+             <input />
           </form>
-        </div>
-        <div class="singupfro">
-          <form action="" method="get">
-            <label>Full Name</label>
-            <input />
+         </div>
+         
+         <div class="singupfro">
+         <form action="" name='subscribeFrm' onSubmit="app.ext.store_crm.u.handleSubscribe($(this)); return false">
+           <label>Email</label> <input type="email" class="fullinpbox" required='required' name='login' value='' placeholder='email address' />
+           <label>Full Name</label>  <input type="text" class="fullinpbox" required='required' name='fullname' placeholder='full name' />
+           <input type="image" value="" name="" src="images/subscribe.gif"  style="border:0px; margin:5px 0 0 0; width:90px;" />
           </form>
-        </div>
-        <div class="subsc"><a href="#."><img src="images/subscribe.gif" alt="Subscribe" title="Subscribe" border="0" /></a></div>
-      </div>
+          </div>
+         
+       </div>
     </div>
     <div class="featurebg">
       <div class="faeturedL"><img src="images/featuredL.gif" /></div>
