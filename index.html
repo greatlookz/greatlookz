@@ -273,13 +273,13 @@ used to organize content when a category is clicked.
 each of the 'sections' are used to load another template. don't change the id.
 don't modify the 'data-templateid' unless you are changing template names and updating everywhere appropriate.
 -->
-<div id='categoryTemplate' class='loadingBG categoryTemplate'>
+<div id='categoryTemplate' class='loadingBG categoryTemplate cateinnpages'>
   <ul class='breadcrumb clearfix noPadOrMargin fluidList' data-bind='var: category(id); format:breadcrumb; extension:store_navcats; loadsTemplate: breadcrumbTemplate;'>
   </ul>
   <img data-bind="var: category(%page.banner1); format: banner; editor: banner; height:250; width:750; extension: myRIA;" src='images/blank.gif' alt='' />
   <h2 data-bind="var: category(%page.header); format: text; editor: text;"></h2>
-  <p data-bind="var: category(%page.description); format:wiki; wikiFormats:myRIA; editor: textarea;"></p>
-  <ul data-bind="var: category(@subcategoryDetail); format: categoryList; extension: store_navcats; loadsTemplate: categoryListTemplate; detail:max;" class='listStyleNone fluidList clearfix noPadOrMargin categoryList'>
+  <p data-bind="var: category(%page.description); format:wiki; wikiFormats:myRIA; editor: textarea;" class="cateinnptitle"></p>
+  <ul data-bind="var: category(@subcategoryDetail); format: categoryList; extension: store_navcats; loadsTemplate: categoryListTemplate; detail:max;" class='listStyleNone fluidList clearfix noPadOrMargin categoryList proimgbox'>
   </ul>
   <!-- outputs a list of subcategories -->
   <!--<ul data-bind="var: category(@products); format: productList; editor: finder; extension: store_prodlist; loadsTemplate: productListTemplate; withReviews:1; items_per_page: 25;" class='listStyleNone fluidList clearfix noPadOrMargin productList'></ul>-->
@@ -290,8 +290,8 @@ don't modify the 'data-templateid' unless you are changing template names and up
 <ul>
   <li id='categoryListTemplate'>
     <div onClick="showContent('category',{'navcat':$(this).parent().attr('data-catsafeid')});" class='pointer'>
-      <div class='thumbContainer'><img src='blank.gif' class='catThumb' alt='' data-bind='var: category(%meta.CAT_THUMB); format:imageURL;' width='120' height='120' /></div>
-      <div class='catName white2LGray'><span data-bind='var: category(pretty); format:catText; extension: myRIA;'></span></div>
+      <div class='thumbContainer'><img src='blank.gif' class='catThumb' alt='' data-bind='var: category(%meta.CAT_THUMB); format:imageURL;' width='221' height='146' /></div>
+      <div class='catName white2LGray protitlebox'><span data-bind='var: category(pretty); format:catText; extension: myRIA;'></span></div>
      <!-- <ul class="listcat">
         <li data-bind='var: category(pretty); format:catText; extension: myRIA;'> </li>
       </ul>-->
@@ -328,7 +328,7 @@ remember to NOT put the button inside the 'onclick' container or two events will
 for product lists with addToCart feature (accessories, for example)
 container ul should have lineItemProdlist class on it instead of productList
 -->
-  <li id='productListTemplateATC' class='loadingBG  ' >
+  <li id='productListTemplateATC' class='loadingBG' >
     <div data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;'>
       <div class='prodThumbContainer floatLeft'> <img src='blank.gif' class='prodThumb' alt='' data-bind='var: product(zoovy:prod_image1); format:imageURL;' width='120' height='120' /> </div>
       <h5 data-bind='var: product(zoovy:prod_name); format:text;'></h5>

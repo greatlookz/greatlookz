@@ -329,14 +329,13 @@ BREADCRUMB
 ***************************************************/
 
 
-.breadcrumb	{margin-bottom:12px;}
-.breadcrumb li	{padding:0; margin:0; cursor:pointer; padding-right:10px;}
-.breadcrumb li:after	{content:" \00BB "; padding-left:10px; font-size:10px; font-weight:bold; color:#999999;}
-.breadcrumb li:last-child:after	{content:"";}
-
-.breadcrumb li:last-child a	{color:#666666; text-decoration:none; font-weight:bold; cursor:text;}
-
-
+.breadcrumb	{margin:0px; padding:10px 0 7px 0 !IMPORTANT; text-transform:uppercase; font-size:11px; border-bottom:2px solid #e2e1d7;}
+.breadcrumb li{padding:0; margin:0; cursor:pointer; padding-right:5px;}
+.breadcrumb li:after{content:" \00BB "; padding-left:5px; font-weight:bold; color:#999999;}
+.breadcrumb li:last-child:after{content:"";}
+.breadcrumb li:last-child a	{color:#CC7485; text-decoration:none; cursor:text;}
+.breadcrumb li a{color:#726A5A;}
+.breadcrumb li a:hover{color:#000000;}
 
 /***************************************************
 
@@ -787,4 +786,15 @@ div#appPreView h3 {
 .contactbox{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; min-height:400px;}
 .contactbox h1{ margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:20px; font-weight: normal;}
 .contactbox p{ margin:0px; padding:10px 0 0 0; color:#797979; font-size:12px; font-weight: normal; line-height:20px;} 
+
+.cateinnpages{margin:0px; padding:0px; color:#797979; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.cateinnptitle{margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:12px; font-weight: normal;}
+
+.proimgbox{margin:0 0 0 0; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.proimgbox li{margin:0 0 9px 9px; padding:0px; border:1px solid #D3CDC0; width:221px !important; height:146px !important; position:relative !important;}
+.protitlebox{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:0px; font-size:12px; text-transform:uppercase; text-align:right; width:186px; margin:0 0 0 1px; padding:7px 35px 0 0; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
+.protitlebox a{color:#5f5745 !important;}
+.protitlebox a:hover{color:#000 !important;}
+
+.harshad123{color:#00FF00 !IMPORTANT;}
 /*Inner Page Css*/
