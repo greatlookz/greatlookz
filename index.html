@@ -68,6 +68,7 @@ app.u.loadScript(app.vars.baseURL+"app-quickstart-init.js");
     </tr>
   </table>
 </div>
+
 <div id='appView' class='displayNone'>
   <!-- VIEW CONTENT -->
   <!-- leave the appView div, put your your html here ...  -->
@@ -75,7 +76,7 @@ app.u.loadScript(app.vars.baseURL+"app-quickstart-init.js");
 	** REMINDER : DO NOT PUT ANY GRAPHICS/CONTENT THAT SHOULD NOT APPEAR ON EVERY PAGE IN THE VIEW (HERE)
 	**				  INSTEAD PUT THEM INTO <div id="homepageTemplate"></div>
 	-->
-  <div id='globalMessaging' class='appMessaging'></div>
+  
   <!-- DO NOT REMOVE - used for some high level error handling (usually appears below breadcrumb nav or top bar) -->
   <!-- These add specific functionality for the app. In most cases, you want to leave them alone. -->
   <!--<div id='appNav'>
@@ -87,11 +88,12 @@ app.u.loadScript(app.vars.baseURL+"app-quickstart-init.js");
     <div class="topmenu">
       <div class="topmenuL">Questions ? Call 877-755-4920</div>
       <div class="topmenuR"><span class="loginShow" style="padding:0px;"><a href="#" onClick="app.ext.myRIA.u.handleLogoutActions(); return false;">Log out</a></span> 
-      <a href="#" onClick="return showContent('customer',{'show':'myaccount'});" class="loginHide">Sign In</a><i>|</i><a href="#." onClick="return showContent('customer',{'show':'myaccount'});">My Account</a><img src="images/cart.png" class="cart" /><a href="#." class="items">Cart <span class="cartItemCount"></span></a></div>
+      <a href="#" onClick="return showContent('customer',{'show':'myaccount'});" class="loginHide">Sign In</a><i>|</i><a href="#." onClick="return showContent('customer',{'show':'myaccount'});">My Account</a><a href="#" onClick="return showContent('cart',{});"><img src="images/cart.png" class="cart" /></a><span class="items">Cart <span class="cartItemCount"></span></span></div>
     </div>
   </div>
   <!--Wrapper Start -->
   <div class="wrapper">
+  <div id='globalMessaging' class='appMessaging'></div>
     <!--Header Start-->
     <div class="header">
       <div class="logo"><a href="#" onClick="return showContent('category',{'navcat' : '.'});"><img src="images/logo.gif" alt="Great Lookz" title="Great Lookz" border="0" /></a></div>
@@ -154,7 +156,7 @@ app.u.loadScript(app.vars.baseURL+"app-quickstart-init.js");
           <h2>Policies</h2>
           <li><a href="#" onClick="return showContent('company',{'show':'privacy'});">Privacy</a></li>
           <li><a href="#" onClick="return showContent('company',{'show':'Shipping'});">Shipping</a></li>
-          <li><a href="#" onClick="return showContent('customer',{'show':'payment'});">Payment</a></li>
+          <li><a href="#" onClick="return showContent('company',{'show':'payment'});">Payment</a></li>
           <li><a href="#" onClick="return showContent('company',{'show':'return'});">Returns</a></li>
         </ul>
         <ul>
@@ -167,21 +169,14 @@ app.u.loadScript(app.vars.baseURL+"app-quickstart-init.js");
           <img src="images/visa_amex.gif" /><br />
           <img src="images/geotrust.gif" class="geotext" /><br />
           <div class="phoneNumber">877-755-4920</div>
-          <div class="copyright">Copyright &copy; 2013. <a href="https://www.zoovy.com/">ecommerce by Zoovy</a></div>
+          <div class="copyright">Copyright &copy; 2013. <a href="https://www.zoovy.com/" target="_blank">ecommerce by Zoovy</a></div>
         </div>
       </div>
     </div>
     <!--Footer Start -->
   </div>
   <!--Wrapper Close -->
-  <div id="container" style="display:none;">
-    <div id="topNav">
-      <div id="topNavContent">
-        <!--<img src="images/account-icon.png" alt="">-->
-        <span class="fl"> Welcome,  </span> </div>
-    </div>
-    <div id="header"> </div>
-    </div>
+  
     <!--
 *************************************************************************************************************
 **
@@ -204,12 +199,15 @@ the homepageTemplate template is loaded into mainContentArea by default when the
       <div id='homepageTemplate' class='homeTemplate'>
         <div class="middle">
           <div class="banner"><img src="images/banner.jpg" alt="" /></div>
+          
           <div class="quickserch">
-          <form id='headerSearchFrm' name='headerSearchFrm' action='#' class='productSearchForm' method="get">
+          <form id='headerSearchFrm' name='headerSearchFrm' action='#' class='productSearchForm' method='get'>
           <label>QUICK SEARCH</label>
-          <input type='search' name='KEYWORDS' id='txtSearch' class="quickenter" placeholder="Enter Item # or Keyword" />
+          <input type='search' name='KEYWORDS' id='txtSearch' class="quickenter" placeholder='Enter Item # or Keyword'/>
           <input id="btnTopNavSearch" type="image" class="quicksearch" src="images/search.gif" value=""/>
+          </form>
           </div>
+          
           <div class="motherdaybox">
           <div class="motherdayimg spacenone"><img src="images/daypic1.jpg" alt="" /></div>
           <div class="motherdayimg"><img src="images/daypic2.jpg" alt="" /></div>
@@ -233,29 +231,29 @@ the homepageTemplate template is loaded into mainContentArea by default when the
           </div>
          
        </div>
-    </div>
-    <div class="featurebg">
-      <div class="faeturedL"><img src="images/featuredL.gif" /></div>
-      <div class="faeturedM">FEATURED DEPARTMENTS</div>
-      <div class="faeturedR"><img src="images/featuredR.gif" /></div>
-    </div>
-    <div class="featurebox">
-      <div class="featureinn feaspace"><img src="images/feapic1.jpg" />
-        <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.strawhatsberetsmore.hair_accessories/'});">FLOWER PINS</a></div>
-      </div>
-      <div class="featureinn"><img src="images/feapic2.jpg" />
-        <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.fancylinens.handkerchief'});">LINENS</a></div>
-      </div>
-      <div class="featureinn feaspace"><img src="images/feapic3.jpg" />
-        <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.accessories.shapewear'});">SHAPEWEAR</a></div>
-      </div>
-      <div class="featureinn"><img src="images/feapic4.jpg" />
-        <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: 'accessories.aaagirls_dresses.outerwear'});">GIRLS OUTERWEAR</a></div>
-      </div>
-    </div>
-    <div class="fromtext">
-      <p>From bobby socks to wedding gloves, Greatlookz has the period accessory for you. We will help you transform your outfit from the ordinary to the remarkable. Red Hat Ladies will find the most complete collection of red hats, feather boas, red hat jewelry and unique accessories to make their outfits fun and memorable.</p>
-    </div>
+          </div>
+            <div class="featurebg">
+              <div class="faeturedL"><img src="images/featuredL.gif" /></div>
+              <div class="faeturedM">FEATURED DEPARTMENTS</div>
+              <div class="faeturedR"><img src="images/featuredR.gif" /></div>
+            </div>
+            <div class="featurebox">
+              <div class="featureinn feaspace"><img src="images/feapic1.jpg" />
+                <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.strawhatsberetsmore.hair_accessories/'});">FLOWER PINS</a></div>
+              </div>
+              <div class="featureinn"><img src="images/feapic2.jpg" />
+                <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.fancylinens.handkerchief'});">LINENS</a></div>
+              </div>
+              <div class="featureinn feaspace"><img src="images/feapic3.jpg" />
+                <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.accessories.shapewear'});">SHAPEWEAR</a></div>
+              </div>
+              <div class="featureinn"><img src="images/feapic4.jpg" />
+                <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: 'accessories.aaagirls_dresses.outerwear'});">GIRLS OUTERWEAR</a></div>
+              </div>
+            </div>
+            <div class="fromtext">
+              <p>From bobby socks to wedding gloves, Greatlookz has the period accessory for you. We will help you transform your outfit from the ordinary to the remarkable. Red Hat Ladies will find the most complete collection of red hats, feather boas, red hat jewelry and unique accessories to make their outfits fun and memorable.</p>
+            </div>
   </div>
   <!--<ul data-bind="var: category(@subcategoryDetail); format: categoryList; extension: store_navcats; loadsTemplate: categoryListTemplate; detail:max;" class='listStyleNone fluidList clearfix noPadOrMargin categoryList'></ul>-->
   
@@ -537,30 +535,17 @@ if you change these, you should move them above this comment so that when you (o
 </ul>
 <!-- loadingBG needed on this for app init (content may take a moment to load) -->
 <div id='companyTemplate' class='clearfix loadingBG'>
-  <div class='sideline' >
-    <nav id='companyNav'>
-      <ul class='listStyleNone noPadOrMargin'>
-        <li><a href='#company?show=about'>About Us</a></li>
-        <li><a href='#company?show=contact'>Contact Information</a></li>
-        <li><a href='#company?show=faq'>FAQ</a></li>
-        <li><a href='#company?show=payment'>Payment Policy</a></li>
-        <li><a href='#company?show=privacy'>Privacy Statement</a></li>
-        <li><a href='#company?show=return'>Return Policy</a></li>
-        <li><a href='#company?show=shipping'>Shipping Information</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class='mainColumn'>
-    <!-- .textContentArea is used as a selector in quickstart.js because article tag type isn't ie8 friendly -->
-    <div id='aboutArticle' class='textContentArea article'>
+   
+     <div id='aboutArticle' class='textContentArea article innerpagebox'>
       <h1>About Us</h1>
       <div data-bind='var: profile(zoovy:about); format:wiki; wikiFormats:myRIA;' id='aboutUsContent'></div>
     </div>
-    <div id='contactArticle' class='displayNone textContentArea'>
+    
+    <div id='contactArticle' class='displayNone textContentArea contactbox'>
       <h1>Contact Information</h1>
       <form action='#' onSubmit="app.calls.appSendMessage.init($(this).serializeJSON(),{'callback':'showMessaging','parentID':'contactFormMessaging','message':'Thank you, your message has been sent'},'immutable'); app.model.dispatchThis('immutable');  return false;" id='contactForm' name='contactForm'>
         <fieldset>
-        <legend>Contact Us</legend>
+        <legend><strong>Contact Us</strong></legend>
         <div id='contactFormMessaging'></div>
         <div>
           <label for='contactFormSender'>Email Address: </label>
@@ -579,23 +564,26 @@ if you change these, you should move them above this comment so that when you (o
           <textarea name='body' required='required' id='contactFormBody'></textarea>
         </div>
         <div class='alignRight'>
-          <input type='submit' class='ui-button-text ui-button ui-state-default ui-corner-all' value='Send Message' />
+          <input type='submit' class='ui-button-text ui-button ui-corner-all sendmess' value='Send Message' />
         </div>
         </fieldset>
       </form>
       <div data-bind='var: profile(zoovy:contact); format:wiki; wikiFormats:myRIA;' id='contactContent'></div>
     </div>
-    <div id='faqArticle' class='displayNone textContentArea'>
+    
+    <div id='faqArticle' class='displayNone textContentArea innerpagebox'>
       <h1>Frequently Asked Questions</h1>
       <div id='faqContent' class='loadingBG ui-accordion ui-widget ui-helper-reset ui-accordion-icons appAccordianesque'></div>
     </div>
-    <div class='displayNone textContentArea' id='paymentArticle'>
+    
+    <div class='displayNone textContentArea innerpagebox' id='paymentArticle'>
       <h1>Payment Policy</h1>
       <div data-bind='var: profile(zoovy:payment_policy); format:wiki; wikiFormats:myRIA;' id='paymentContent'></div>
     </div>
-    <div class='displayNone textContentArea' id='privacyArticle'>
+    
+    <div class='displayNone textContentArea privapagebox' id='privacyArticle'>
       <h1>Privacy Statement</h1>
-      <h4>About this Privacy Policy:</h4>
+      <h3>About this Privacy Policy:</h3>
       <p>The entire site, or at least specific portions of this site are assisted by Zoovy technology. Zoovy has created this privacy policy as a template for customers who are using Zoovy technology with their websites. Zoovy in no way takes responsibility for the accuracy or enforcement of this policy. For a copy of Zoovy's privacy policy (which does not necessarily apply to the customers of its customers) visit http://www.zoovy.com/legal</p>
       <p>Zoovy, Inc. has created this privacy statement for this Company in order to demonstrate our joint commitment to privacy. The following discloses the information gathering and dissemination practices for this website:</p>
       <h5>Zoovy.com tracks IP Addresses</h5>
@@ -620,38 +608,25 @@ if you change these, you should move them above this comment so that when you (o
       <p>This site gives users the following options for changing and modifying information previously provided. Simply visit the customer login area of this website.</p>
       <!-- !!! load amendments here -->
     </div>
-    <div class='displayNone textContentArea' id='returnArticle'>
+    
+    <div class='displayNone textContentArea innerpagebox' id='returnArticle'>
       <h1>Return Policy</h1>
-      <div data-bind='var: profile(zoovy:return_policy); format:wiki; wikiFormats:myRIA;' id='returnContent'></div>
+<p>EXCHANGES: Exchanges are easy! Simply enclose a copy of your invoice with your unwanted item(s) and a note indicating exactly what you would like instead. If you are unhappy with an item for any reason, we have hundreds of items from which you can choose an exchange. Merchandise may be exchanged under the following conditions: All merchandise MUST be exchanged 30 days from the receipt AND in the original packaging as received, unused and undamaged. The customer will pay the return shipping fees to our location. There are no additional shipping charges or restocking fees for exchanges. *Please note that there are NO EXCHANGES on hosiery or bodystockings. RETURNS: Please enclose a copy of your invoice with your return. *Refunds will be delayed on packages received without invoices or order number. Refunds are issued within one week from the date your return has been received. Any return that is received 60 days or more after the original purchase is subject to a 15% restocking fee. The balance will be credited to the credit card that initiated the initial purchase. We DO NOT offer refunds on sunglasses, hosiery, bodystockings or clearance items. (All clearance items have CLEARANCE in the title.) Refunds or credit will not be issued for products that have been worn, washed, altered, damaged or soiled. There is no refund on shipping charges. INTERNATIONAL SALES: All customs fees, duties or tariffs are the responsibility of the customer. This applies to the original purchase/shipment and to the product return shipments. Packages that are undeliverable or refused by the customer will not be refunded for shipping charges. DAMAGED OR DEFECTIVE MERCHANDISE: All damaged or defective claims must be made within 5 days of receiving merchandise. Toll Free: 877-755-4920 Fax: 888-709-8557 Please send Returns and Exchanges to:
+</p>
+<p>Mailing address:</p>
+
+<p>7655 East Redfield Road Suite 1, Scottsdale, AZ 85260.</p> 
+      <!--<div data-bind='var: profile(zoovy:return_policy); format:wiki; wikiFormats:myRIA;' id='returnContent'></div>-->
     </div>
-    <div class='displayNone textContentArea' id='shippingArticle'>
+    
+    <div class='displayNone textContentArea innerpagebox' id='shippingArticle'>
       <h1>Shipping Information</h1>
       <div data-bind='var: profile(zoovy:shipping_policy); format:wiki; wikiFormats:myRIA;' id='shippingContent'></div>
     </div>
-  </div>
 </div>
 <!-- /companyTemplate -->
 <!-- loadingBG needed on this for app init (content may take a moment to load) -->
 <div id='customerTemplate' class='clearfix'>
-  <div class='sideline' >
-    <nav id='customerNav'>
-      <ul class='listStyleNone noPadOrMargin'>
-        <!-- before restoring this, test cuz news form on left was causing some conflicts
-		<li><a href='#customer?show=subscriberLists'>Newsletter Subscription</a></li> -->
-        <li><a href='#customer?show=myaccount'>My Account</a></li>
-        <li><a href='#customer?show=changepassword'>Change Password</a></li>
-        <li><a href='#customer?show=orders'>Order History</a></li>
-        <li><a href='#customer?show=lists'>Manage Lists</a></li>
-        <li class='hideIfLoggedOut'><a href="#" onClick="app.ext.myRIA.u.handleLogoutActions(); return false;">Log Out</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class='mainColumn'>
-    <!-- .textContentArea is used as a selector because IE8 doesn't play well  with tag type article as a selector -->
-    <!--
-newsletterArticle is used for buyers who are not logged in or do not have an account.
-subscribeListsArticle is used for authenticated buyers
--->
     <div id='newsletterArticle' class='displayNone textContentArea'>
       <h1>Subscribe to our Newsletter and Save!</h1>
       <div data-bind="format:loadsTemplate; loadsTemplate:subscribeFormTemplate;"></div>
@@ -722,7 +697,6 @@ subscribeListsArticle is used for authenticated buyers
       <ul id='forgetmeContainer' class='prodlist loadingBG'>
       </ul>
     </div>
-  </div>
 </div>
 <div id='searchTemplate' class='searchResultsPage clearfix'>
   <!-- the div is use to show a detailed view of a product. should be hidden by default. -->
@@ -770,7 +744,7 @@ So the cart template should contain these two elements and the extension should 
   <form id='cartTemplateForm' action='#' onSubmit='return false'>
     <table class='cartContainer'>
       <tr>
-        <td class='cartStuffContainer'><ul id='cartStuffList' data-bind="var: cart(@ITEMS); format:stuffList; loadsTemplate:productListTemplateCart;" class='listStyleNone fluidList clearfix noPadOrMargin productList lineItemProdlist'>
+        <td class='cartStuffContainer'><ul id='cartStuffList' data-bind="var: cart(@ITEMS); format:stuffList; loadsTemplate:productListTemplateCart;" class='listStyleNone fluidList clearfix noPadOrMargin productList lineItemProdlist proborview'>
           </ul></td>
         <td class='cartSummaryTotalsContainer'><div class='ui-widget ui-widget-content ui-helper-clearfix ui-corner-all'>
             <h2 class='ui-widget-header ui-helper-clearfix ui-corner-all ui-header'>Cart Totals</h2>

@@ -423,12 +423,53 @@ HELP PAGES
 ***************************************************/
 
 /***** CONTACT US ******/
-#contactForm {float:right; margin: 0 0 12px 12px;}
-#contactForm fieldset	{border:1px solid #cccccc; padding:10px;}
-#contactForm div	{margin-bottom:5px}
-#contactForm label	{width:105px; display:inline-block; margin-right:6px; vertical-align:top; text-align:right;}
-#contactForm input, #contactForm textarea	{width:145px;}
-#contactForm textarea	{height:125px;}
+#contactForm {
+	float:right;
+	margin: 0 0 12px 12px;
+	width:495px;
+}
+#contactForm fieldset {
+	border:1px solid #cccccc;
+	padding:10px;
+	background:#f4f3ec;
+}
+#contactForm div {
+	margin-bottom:10px
+}
+#contactForm label {
+	width:105px;
+	display:inline-block;
+	margin-right:6px;
+	vertical-align:top;
+	text-align:right;
+}
+#contactForm input, #contactForm textarea {
+	width:145px;
+}
+#contactForm textarea {
+	height:125px;
+}
+#contactForm input, #contactForm textarea {
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+	width:349px;
+}
+#contactForm textarea {
+	height:125px;
+}
+.sendmess {
+	margin:0px;
+	padding:0px;
+	font-size:0px;
+	border:0px !important;
+	height:23px !important;
+	width:136px !important;
+	cursor:pointer;
+	background:none !important;
+	background-image:url(images/send_massage.gif) !important;
+	background-repeat:no-repeat;
+}
+/***** CONTACT US ******/
 
 
 
@@ -553,6 +594,13 @@ body{margin:0px; padding:0px; font-family:Georgia; font-size:12px; color:#808080
 a{text-decoration:none;}
 a:hover{text-decoration:none;}
 img{max-width:100%;}
+
+hr {
+    background-color: #CCCCCC;
+    border: medium none;
+    color: #CCCCCC;
+    height: 1px;
+}
 .fl{float:left;}
 .fr{float:right;}
 .cb{clear:both;}
@@ -713,3 +761,30 @@ div#appPreView h3 {
 .buyerLoggedIn .loginHide{display:none;}
 .hideIfLoggedIn{display:block;}
 /*Login In Log Out Css*/
+.appMessaging {
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px; clear:both;
+}
+.ui-widget-content{background:#FFFFFF !important; color:#333333; border-color:#b1b1b1 !important;}
+.ui-widget-header{background:#ccbea3 !important; border: 1px solid #ccbea3 !important; color:#333 !important; font-weight: bold;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {color: #444444 !important; background:#e5e2d9 !important;}
+.proborview li{border: 1px solid #CCCCCC !important;  margin:0 0 10px 0 !important; min-height: 50px !important; padding: 10px !important; width:98.70% !important;}
+
+
+/*Inner Page Css*/
+.innerpagebox{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; min-height:400px;}
+.innerpagebox h1{ margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:20px; font-weight: normal;}
+.innerpagebox p{ margin:0px; padding:10px 0 0 0; color:#797979; font-size:12px; font-weight: normal; line-height:20px;} 
+
+.privapagebox{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; min-height:400px;}
+.privapagebox h1{ margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:20px; font-weight: normal;}
+.privapagebox h3{ margin:0px; padding:10px 0 0 0; color:#726A5A; font-size:13px; font-weight: bold;}
+.privapagebox h5{color:#797979;}
+.privapagebox p{ margin:0px; padding:10px 0 0 0; color:#797979; font-size:12px; font-weight: normal; line-height:20px;}
+
+.contactbox{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; min-height:400px;}
+.contactbox h1{ margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:20px; font-weight: normal;}
+.contactbox p{ margin:0px; padding:10px 0 0 0; color:#797979; font-size:12px; font-weight: normal; line-height:20px;} 
+/*Inner Page Css*/
