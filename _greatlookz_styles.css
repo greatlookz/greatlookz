@@ -660,7 +660,7 @@ hr {
 /*Middle Close*/
 
 /*Footer Start*/
-.footer{margin:0 0 50px 0; padding:0px; max-width:930px; width:100%; float:left;}
+.footer{margin:0 0 0px 0; padding:0px; max-width:930px; width:100%; float:left;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left;}
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#fdfef8; float:left; min-height:165px;}
 .footerbot ul{margin:0 0 0 50px; padding:0px; float:left;}
@@ -689,6 +689,7 @@ hr {
 .partydress{margin:10px 0 0 10px;}
 
 .faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:16px; width:95%;}
+
 .featurebox{margin:9px 0 0 55px; padding:0px; width:92%; float:left;}
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
@@ -697,7 +698,7 @@ hr {
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; float:left; min-height:165px; display:none;}
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
 .nav ul{margin:0px !important; padding:0px; width:100% !important;}
@@ -720,6 +721,38 @@ hr {
 }
 
 @media only screen and (max-width: 320px) {
+.headtopmenu{background:url(images/body_bg.gif) repeat; height:58px; width:100%; float:left; font-family:Arial, Helvetica, sans-serif;} 
+.topmenu{margin:0 auto; padding:0px; max-width:320px; width:96%;}
+.topmenuL{margin:0px; padding:4px 0 0 0; color:#838485; font-size:13px; font-weight:bold; text-align:center; float:left; width:100%; max-width:320px;}
+.topmenuR{margin:0px; padding:7px 0 0 0; font-size:17.34px; text-align:center; float:left; width:100%; max-width:320px;}
+.topmenuR a{color:#000000;}
+.topmenuR a:hover{color:#726a5a;} 
+.topmenuR i{padding:0 7px; color:#000000;}
+.cart{padding:6px 3px 0 8px;}
+.wrapper{margin:0 auto; padding:0px; width:94%;}
+.banner{margin:5px 0 0 0; padding:0px; max-width:930px; width:100%; float:left; display:none;} 
+.quickserch{margin:9px 0; padding:0px; max-width:320px; width:100%; float:left;}  
+.quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left; max-width:320px; width:100%; text-align:center;}
+.quickenter{margin:10px 0 0 0; padding:5px 5px 4px 5px; background:url(images/quick_serchbg320.gif) no-repeat; max-width:260px; width:100%; border:0px; float:left; font-size:11px; text-align:center;}
+.quicksearch{margin:10px 0 0 87px; padding:0px;}
+
+.motherdaybox{margin:0 0 0 15px; padding:0px; width:92%; float:left;}
+.motherdayimg{margin:10px 0 0 10px; padding:0px; float:left;} 
+.singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+ 
+.featurebg{margin:9px 0 0 0; padding:0 0 0 0; max-width:930px; width:100%; float:left;}
+.faeturedL{margin:0px; padding:0px; float:left;}
+.faeturedM{margin:0px; padding:7px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:24px; text-align:center; font-size:15px; color:#797979; font-weight:bold; letter-spacing:1px; max-width:245px; width:100%;}
+.faeturedR{margin:0px; padding:0px; float:left;}
+
+.featurebox{margin:0 0 0 26px; padding:0px; width:92%; float:left;}
+.featureinn{margin:10px 0 0 0 !important; padding:0px; float:left; position:relative;}
+.featureinn img{border:1px solid #d3cdc0;} 
+ 
+ 
+ 
+.nav{visibility:hidden; height:0;}
+#responsive-menu{display:inline-block !important; width:100%; margin-top:13px;}
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FF0 !important; float:left; min-height:165px; display:none;}
 }
 /***** Responsiv Css Close*****/
@@ -796,5 +829,9 @@ div#appPreView h3 {
 .protitlebox a{color:#5f5745 !important;}
 .protitlebox a:hover{color:#000 !important;}
 
-.harshad123{color:#00FF00 !IMPORTANT;}
 /*Inner Page Css*/
+
+/*Nav Css*/
+.header select{margin:0px; padding:9px 10px; outline:medium none; display:block; max-width:100%; overflow:hidden; width:100%; border:1px solid #605846; background:#fcfdf7; font-size:20px; color:#605846; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; border-radius: 4px;}
+#responsive-menu{display:none; float:left;}
+/*Nav Css*/
