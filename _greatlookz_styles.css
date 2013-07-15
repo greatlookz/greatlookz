@@ -735,7 +735,11 @@ img{max-width:none !important;}
 .quickserch{margin:9px 0; padding:0px; max-width:320px; width:100%; float:left;}  
 .quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left; max-width:320px; width:100%; text-align:center;}
 .quickenter{margin:10px 0 0 0; padding:5px 5px 4px 5px; background:url(images/quick_serchbg320.gif) no-repeat; max-width:289px; width:100%; border:0px; float:left; font-size:11px; text-align:center;}
+<<<<<<< HEAD
 .quicksearch{margin:10px 0 0 97px; padding:0px;}
+=======
+.quicksearch{margin:10px 0 0 87px; padding:0px;}
+>>>>>>> 0bfa4b6065421b882a480c58f6708a133a0695f9
 
 .motherdaybox{margin:0 0 0 26px; padding:0px; width:92%; float:left;}
 .motherdayimg{margin:10px 0 0 10px; padding:0px; float:left;} 
