@@ -698,7 +698,7 @@ hr {
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; float:left; min-height:165px; display:none;}
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
 .nav ul{margin:0px !important; padding:0px; width:100% !important;}
@@ -735,19 +735,19 @@ img{max-width:none !important;}
 .quickserch{margin:9px 0; padding:0px; max-width:320px; width:100%; float:left;}  
 .quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left; max-width:320px; width:100%; text-align:center;}
 .quickenter{margin:10px 0 0 0; padding:5px 5px 4px 5px; background:url(images/quick_serchbg320.gif) no-repeat; max-width:289px; width:100%; border:0px; float:left; font-size:11px; text-align:center;}
-.quicksearch{margin:10px 0 0 87px; padding:0px;}
+.quicksearch{margin:10px 0 0 97px; padding:0px;}
 
-.motherdaybox{margin:0 0 0 15px; padding:0px; width:92%; float:left;}
+.motherdaybox{margin:0 0 0 26px; padding:0px; width:92%; float:left;}
 .motherdayimg{margin:10px 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
  
 .featurebg{margin:9px 0 0 0; padding:0 0 0 0; max-width:930px; width:100%; float:left;}
 .faeturedL{margin:0px; padding:0px; float:left;}
-.faeturedM{margin:0px; padding:7px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:24px; text-align:center; font-size:15px; color:#797979; font-weight:bold; letter-spacing:1px; max-width:245px; width:100%;}
+.faeturedM{margin:0px; padding:7px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:24px; text-align:center; font-size:15px; color:#797979; font-weight:bold; letter-spacing:2px; max-width:274px; width:100%;}
 .faeturedR{margin:0px; padding:0px; float:left;}
 
 .featurebox{margin:0 0 0 26px; padding:0px; width:92%; float:left;}
-.featureinn{margin:10px 0 0 0 !important; padding:0px; float:left; position:relative;}
+.featureinn{margin:0 0 0 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
  
  
