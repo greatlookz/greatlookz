@@ -773,7 +773,7 @@ img{max-width:none !important;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
 
 .footer{margin:10px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
-.footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FF0 !important; float:left; min-height:165px;}
+.footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FF0 !important; float:left; min-height:165px; display:none;}
 
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:215px !important;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:200px !important; background:#FFF;}
