@@ -683,18 +683,18 @@ hr {
 .quickserch label{margin:4px 0 0 20px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
 .nav ul{margin:0 0 0 27px; padding:0px; width:85%; line-height:7px;}
 
-.motherdaybox{margin:0 0 0 55px; padding:0px; width:92%; float:left;}
+.motherdaybox{margin:0 0 0 67px; padding:0px; width:92%; float:left;}
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .partydress{margin:10px 0 0 10px;}
 
 .faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:16px; width:95%;}
 
-.featurebox{margin:9px 0 0 55px; padding:0px; width:92%; float:left;}
+.featurebox{margin:9px 0 0 77px; padding:0px; width:92%; float:left;}
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
 
-.bobbytop{margin:18px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
+.bobbytop{margin:0 0 13px 0; padding:0 30px; max-width:565px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
 .bobbytop p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
 
@@ -843,6 +843,6 @@ div#appPreView h3 {
 .header select{margin:0px; padding:9px 10px; outline:medium none; display:block; max-width:100%; overflow:hidden; width:100%; border:1px solid #605846; background:#fcfdf7; font-size:20px; color:#605846; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; border-radius: 4px;}
 #responsive-menu{display:none; float:left;}
 
-.bobbytop{margin:18px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:none;} 
+.bobbytop{margin:0 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:none;} 
 .bobbytop p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
 /*Nav Css*/
