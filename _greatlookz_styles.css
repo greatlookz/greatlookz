@@ -725,7 +725,7 @@ hr {
 .bobbytop p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
 
-.innspace{margin:0px; padding:0px;}
+.innspace{margin:9px 0 0 0; padding:0px;}
 
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#000 !important; float:left; min-height:165px; display:none;}
 }
