@@ -653,7 +653,7 @@ hr {
 .featitbot a{color:#5f5745;}
 .featitbot a:hover{color:#000;}
 .fromtext{margin:18px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a;}
-.fromtext p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
+.fromtext p{margin:0 auto; padding:0px; max-width:728px; width:100%; line-height:22px;}
 .spacenone{margin:0px; padding:0px;}
 .navagationfrist{padding:10px 0 10px 25px !important;}
 .feaspace{margin:0px; padding:0px;}
@@ -694,7 +694,7 @@ hr {
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
 
-.bobbytop{margin:0 0 13px 0; padding:0 30px; max-width:565px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
+.bobbytop{margin:0 0 13px 0 !important; padding:0 30px !important; max-width:565px !important; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
 .bobbytop p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
 
