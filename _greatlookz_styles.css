@@ -778,6 +778,7 @@ img{max-width:none !important;}
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:215px !important;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:200px !important; background:#FFF;}
 .loadlogo img{width:100%;}
+.proimgbox{margin:0 0 0 27px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 }
 /***** Responsiv Css Close*****/
 
