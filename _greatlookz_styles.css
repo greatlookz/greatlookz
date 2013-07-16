@@ -699,7 +699,7 @@ hr {
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
 
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; float:left; min-height:165px; display:none;}
-.proimgbox{margin:0 0 0 70px; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.proimgbox{margin:0 0 0 70px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 
 }
 
