@@ -843,6 +843,5 @@ div#appPreView h3 {
 .header select{margin:0px; padding:9px 10px; outline:medium none; display:block; max-width:100%; overflow:hidden; width:100%; border:1px solid #605846; background:#fcfdf7; font-size:20px; color:#605846; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; border-radius: 4px;}
 #responsive-menu{display:none; float:left;}
 
-.bobbytop{margin:0 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:none;} 
-.bobbytop p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
+.bobbytop{display:none;} 
 /*Nav Css*/
