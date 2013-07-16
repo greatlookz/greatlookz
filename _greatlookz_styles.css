@@ -695,7 +695,7 @@ hr {
 .featureinn img{border:1px solid #d3cdc0;} 
 
 .bobbytop{margin:0 0 13px 0 !important; padding:0 30px !important; max-width:565px !important; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
-.bobbytop p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
+.bobbytop p{margin:0 auto; padding:0px; max-width:565px; width:100%; line-height:22px;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
 
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; float:left; min-height:165px; display:none;}
