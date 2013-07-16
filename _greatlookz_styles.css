@@ -708,7 +708,7 @@ hr {
 .wrapper{margin:0 auto; padding:0px; width:96%;}
 .nav ul{margin:0px !important; padding:0px; width:100% !important;}
 .nav ul li{margin:0px; padding:10px 0 10px 25px; list-style-type:none; float:left;}
-.quickserch{margin:9px 0 0 10px; padding:0px; max-width:930px; width:100%; float:left;}  
+.quickserch{margin:9px 0 0 11px; padding:0px; max-width:930px; width:100%; float:left;}  
 .quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
 .quickenter{margin:0 0 0 10px; padding:5px 5px 4px 5px; background:url(images/quick_serchbg1.gif) no-repeat; max-width:188px; width:100%; border:0px; float:left; font-size:11px;}
 
@@ -735,6 +735,8 @@ hr {
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:370px !important;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:365px !important; background:#FFF;}
 
+.proimgbox{margin:0 0 0 -5px; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.proimgbox li{margin:0 0 9px 8px; padding:0px; border:1px solid #D3CDC0; width:221px !important; height:146px !important; position:relative !important;}
 
 }
 
