@@ -712,14 +712,14 @@ hr {
 
 .motherdaybox{margin:0px; padding:0px; max-width:930px; width:100%; float:left;}
 .motherdayimg{margin:10px 0 0 0;  padding:0px; float:left; width:49%;} 
-.singupbox{margin:10px 0 0 9px; padding:0 12px; max-width:191px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:143px;} 
-.signtitle{margin:6px 0 0 -7px; padding:0px; float:left;}
+.singupbox{margin:10px 0 0 9px; padding:0 12px; max-width:197px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.signtitle{margin:6px 0 0 -1px; padding:0px; float:left;}
 .spacenone{margin:10px 8px 0 0; padding:0px;}
 
 .featurebox{margin:0 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
 .featureinn{margin:9px 0 0 12px; padding:0px; float:left; position:relative; width:48%;}
 .feaspace{margin:9px 0 0 0 ; padding:0px;}
-.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:8px; max-width:418px; width:100%;}
+.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:8px; max-width:431px; width:100%;}
 
 .bobbytop{margin:10px 0 2px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
 .bobbytop p{margin:0 auto; padding:0px; max-width:421px; width:100%; line-height:22px;}
