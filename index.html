@@ -14,7 +14,7 @@ var _gaq = _gaq || {'push':function(){}} //here for testing. REPLACE BEFORE DEPL
 var myCreole;
 
 var app = {vars:{
-	"release":"2013071695250",  //increment this with each change. should solve caching issues. format: YYYYMMDDHHMMSS
+	"release":"2013071741617",  //increment this with each change. should solve caching issues. format: YYYYMMDDHHMMSS
 	"_clientid":"zmvc",
 	"baseURL":"", //used in non-local mode.
 	"checkoutAuthMode" : "required",//can be passive, active or required
@@ -178,9 +178,9 @@ app.u.loadScript(app.vars.baseURL+"app-quickstart-init.js");
         </ul>
         <ul>
           <h2>Social Networks</h2>
-          <li><a href="#" onClick="http://www.facebook.com/pages/Greatlookz/6243269177" target="_blank"><img src="images/icon1.gif" align="absmiddle" />&nbsp;&nbsp;check out our facebook</a></li>
-          <li><a href="https://twitter.com/greatlookz" target="_blank"><img src="images/icon2.gif" align="absmiddle" />&nbsp;&nbsp;tweet tweet</a></li>
-          <li><a href="http://blog.greatlookz.com/" target="_blank"><img src="images/icon3.gif" align="absmiddle" />&nbsp;&nbsp;our blog</a></li>
+          <li><a href="#" onClick="http://www.facebook.com/pages/Greatlookz/6243269177" target="_blank"><img src="images/icon1.gif" align="absmiddle" alt="Facebook" title="Facebook" />&nbsp;&nbsp;check out our facebook</a></li>
+          <li><a href="https://twitter.com/greatlookz" target="_blank"><img src="images/icon2.gif" align="absmiddle" alt="Twitter" title="Twitter" />&nbsp;&nbsp;tweet tweet</a></li>
+          <li><a href="http://blog.greatlookz.com/" target="_blank"><img src="images/icon3.gif" align="absmiddle" alt="Blog" title="Blog" />&nbsp;&nbsp;our blog</a></li>
         </ul>
         <div class="veiwbox"> <a href="#."><img src="images/view_cart.gif" alt="View Cart" title="View Cart" /></a><br />
           <img src="images/visa_amex.gif" /><br />
@@ -230,9 +230,9 @@ the homepageTemplate template is loaded into mainContentArea by default when the
             </div>
           
           <div class="motherdaybox">
-          <div class="motherdayimg spacenone"><img src="images/daypic1.jpg" alt="" /></div>
-          <div class="motherdayimg"><img src="images/daypic2.jpg" alt="" /></div>
-          <div class="motherdayimg partydress"><img src="images/daypic3.jpg" alt="" /></div>
+          <div class="motherdayimg spacenone"><a href="#."><img src="images/daypic1.jpg" alt="" /></a></div>
+          <div class="motherdayimg"><a href="#."><img src="images/daypic2.jpg" alt="" /></a></div>
+          <div class="motherdayimg partydress"><a href="#."><img src="images/daypic3.jpg" alt="" /></a></div>
           <div class="singupbox">
           <div class="signtitle"><img src="images/sign_uptitle.gif" /></div>
           <p>Enter your email address and receive coupons and special pricing updates by email</p>
@@ -259,16 +259,16 @@ the homepageTemplate template is loaded into mainContentArea by default when the
               <div class="faeturedR"><img src="images/featuredR.gif" /></div>
             </div>
             <div class="featurebox">
-              <div class="featureinn feaspace"><img src="images/feapic1.jpg" />
+              <div class="featureinn feaspace"><a href="#" onClick="return showContent('category',{navcat: '.strawhatsberetsmore.hair_accessories/'});"><img src="images/feapic1.jpg" /></a>
                 <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.strawhatsberetsmore.hair_accessories/'});">FLOWER PINS</a></div>
               </div>
-              <div class="featureinn"><img src="images/feapic2.jpg" />
+              <div class="featureinn"><a href="#" onClick="return showContent('category',{navcat: '.fancylinens.handkerchief'});"><img src="images/feapic2.jpg" /></a>
                 <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.fancylinens.handkerchief'});">LINENS</a></div>
               </div>
-              <div class="featureinn innspace"><img src="images/feapic3.jpg" />
+              <div class="featureinn innspace"><a href="#" onClick="return showContent('category',{navcat: '.accessories.shapewear'});"><img src="images/feapic3.jpg" /></a>
                 <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: '.accessories.shapewear'});">SHAPEWEAR</a></div>
               </div>
-              <div class="featureinn"><img src="images/feapic4.jpg" />
+              <div class="featureinn"><a href="#" onClick="return showContent('category',{navcat: 'accessories.aaagirls_dresses.outerwear'});"><img src="images/feapic4.jpg" /></a>
                 <div class="featitbot"><a href="#" onClick="return showContent('category',{navcat: 'accessories.aaagirls_dresses.outerwear'});">GIRLS OUTERWEAR</a></div>
               </div>
             </div>
