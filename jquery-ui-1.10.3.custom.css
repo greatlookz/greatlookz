@@ -8,7 +8,7 @@
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-	font-family: Verdana,Arial,sans-serif;
+	font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif !important;
 	font-size: 1.1em;
 }
 .ui-widget .ui-widget {
@@ -46,7 +46,7 @@
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-	color:#444444 !important; background:#e5e2d9 !important; border:1px solid #cccccc !IMPORTANT;
+	color:#444444 !important; background:#e5e2d9 !important; border:1px solid #cccccc !IMPORTANT; font-weight:bold !IMPORTANT;
 	/*border: 1px solid #d3d3d3;
 	background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
 	font-weight: normal;
@@ -55,7 +55,7 @@
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited {
-	color: #555555;
+	color: #333 !important;
 	text-decoration: none;
 }
 .ui-state-hover,
@@ -388,9 +388,9 @@
 
 /* Overlays */
 .ui-widget-overlay {
-	background:none !IMPORTANT;
-	opacity: .3;
-	filter: Alpha(Opacity=30);
+	background:url("images/ui-bg_diagonals-thick_20_666666_40x40.png") repeat scroll 50% 50% #666666 !important;
+	opacity:0.5;
+	/*filter: Alpha(Opacity=30); float:left; width:100%;*/
 }
 .ui-widget-shadow {
 	margin: -8px 0 0 -8px;
@@ -400,3 +400,11 @@
 	filter: Alpha(Opacity=30);
 	border-radius: 8px;
 }
+/*NEW CSS*/
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif !important;
+ }
+ .prodViewerAddToCartForm > .addToCartButton {
+    font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif !important;
+ }
+/*NEW CSS*/
