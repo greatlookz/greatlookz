@@ -255,7 +255,7 @@ PRODUCT DETAIL PAGE (productTemplate)
 
 ***************************************************/
 
-.prodViewerContainer	{width:100%;}
+.prodViewerContainer	{width:100%; font-family:Arial, Helvetica, sans-serif; margin:10PX 0 0 0;}
 
 .breadAndAddThisContainer	{margin-bottom:8px; padding-bottom:8px; border-bottom:1px dotted #b6b6b6;}
 
@@ -491,7 +491,7 @@ CART
 
 ***************************************************/
 
-.cartSummaryTotalsContainer h2	{margin:0; border-top:0; border-left:0; border-right:0; padding:2px 12px; font-size:.8em;} /* header */
+.cartSummaryTotalsContainer h2	{margin:0; border-top:0; border-left:0; border-right:0; padding:2px 12px; /*font-size:.8em;*/} /* header */
 .cartSummaryTotalsContainer .cartSummaryContainer	{padding:12px;}
 .cartZipCodeContainer, .cartAltButtonsContainer, .cartSummaryContainer	{margin-bottom:12px; padding-bottom:12px; border-bottom:1px dotted #efefef;}
 
@@ -660,7 +660,7 @@ hr {
 /*Middle Close*/
 
 /*Footer Start*/
-.footer{margin:0 0 0px 0; padding:0px; max-width:930px; width:100%; float:left;}
+.footer{margin:10px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:none;}
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#fdfef8; float:left; min-height:165px;}
 .footerbot ul{margin:0 0 0 50px; padding:0px; float:left;}
@@ -673,6 +673,7 @@ hr {
 .copyright{margin:0px; padding:7px 0 0 0; font-size:11px; font-family:Arial,Helvetica,sans-serif; color:#4E4D49;}
 .copyright a{color:#4E4D49; text-decoration:underline;}
 .copyright a:hover{color:#000000; text-decoration:none;}
+.fristuspace{margin:0 0 0 40px;}
 /*Footer Close*/
 
 
@@ -702,6 +703,8 @@ hr {
 .proimgbox{margin:0 0 0 70px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
 
+.footerbot ul{margin:0 0 0 110px; padding:0px; float:left;}
+.hidesec{display:none !important;}
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -731,13 +734,16 @@ hr {
 .innspace{margin:9px 0 0 0; padding:0px;}
 
 .footer{margin:10px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
-.footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#000 !important; float:left; min-height:165px; display:none;}
+.footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FFF !important; float:left; min-height:165px; display:none;}
 
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:370px !important;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:365px !important; background:#FFF;}
 
 .proimgbox{margin:0 0 0 -6px !important;  padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
+
+.footerbot ul{margin:0 0 0 35px; padding:0px; float:left;}
+.hidesec{display:none !important;}
 
 }
 
@@ -775,7 +781,7 @@ img{max-width:none !important;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
 
 .footer{margin:10px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
-.footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FF0 !important; float:left; min-height:165px; display:none;}
+.footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FFF !important; float:left; min-height:165px; display:none;}
 
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:215px !important;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:200px !important; background:#FFF;}
@@ -784,6 +790,9 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
 
+.footerbot ul{margin:0 0 10px 0; padding:0px; float:left; text-align:center; width:100%;}
+.fristuspace{margin:0 0 0 40px;}
+.hidesec{display:none !important;}
 }
 /***** Responsiv Css Close*****/
 
@@ -829,9 +838,6 @@ div#appPreView h3 {
 	margin:0px;
 	padding:0px; clear:both;
 }
-.ui-widget-content{background:#FFFFFF !important; color:#333333; border-color:#b1b1b1 !important;}
-.ui-widget-header{background:#ccbea3 !important; border: 1px solid #ccbea3 !important; color:#333 !important; font-weight: bold;}
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {color: #444444 !important; background:#e5e2d9 !important;}
 .proborview li{border: 1px solid #CCCCCC !important;  margin:0 0 10px 0 !important; min-height: 50px !important; padding: 10px !important; width:98.70% !important;}
 
 
