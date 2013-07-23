@@ -703,8 +703,7 @@ hr {
 .proimgbox{margin:0 0 0 70px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
 
-.fristuspace{margin:0 0 0 40px !important;}
-.footerbot ul{margin:0 0 0 125px !important; padding:0px; float:left;}
+.footerbot ul{margin:0 0 0 125px; padding:0px; float:left;}
 .hidesec{display:none !important;}
 }
 
@@ -744,8 +743,7 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
 .footerbot ul{margin:0 0 0 45px !important; padding:0px; float:left;}
 
-.fristuspace{margin:0 0 0 40px !important;}
-.footerbot ul{margin:0 0 0 50px !important; padding:0px; float:left;}
+.footerbot ul{margin:0 0 0 50px; padding:0px; float:left;}
 .hidesec{display:none !important;}
 
 }
