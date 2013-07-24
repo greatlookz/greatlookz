@@ -679,6 +679,32 @@ hr {
 
 
 /***** Responsiv Css Start*****/
+
+@media only screen and (min-width:641px) and (max-width:768px) {
+.topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
+.wrapper{margin:0 auto; padding:0px; width:96%;}
+.quickserch label{margin:4px 0 0 72px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
+
+.nav ul{margin:0 0 0 27px; padding:0px; width:85%; line-height:7px;}
+
+.motherdaybox{margin:0 0 0 110px; padding:0px; width:70%; float:left;}
+.motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
+.singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.partydress{margin:10px 0 0 10px;}
+
+.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:20px; width:96%;}
+
+.featurebox{margin:9px 0 0 121px; padding:0px; width:70%; float:left;}
+.featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
+.featureinn img{border:1px solid #d3cdc0;} 
+.proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 25px !important;}
+
+}
+
+
+
+
 @media only screen and (min-width: 481px) and (max-width: 640px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
@@ -706,6 +732,8 @@ hr {
 
 .footerbot ul{margin:0 0 0 125px; padding:0px; float:left;}
 .hidesec{display:none !important;}
+.catedoryspacing{margin:0 0 0 76px !important;}
+
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -746,6 +774,7 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .footerbot ul{margin:0 0 0 50px; padding:0px; float:left;}
 .hidesec{display:none !important;}
+.catedoryspacing{margin:0 0 0 115px !important;}
 
 }
 
@@ -795,7 +824,10 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .footerbot ul{margin:0 0 10px 0 !important; padding:0px; float:left; text-align:center; width:100%;}
 .fristuspace{margin:0px !important;}
 .hidesec{display:none !important;}
+.catedoryspacing{margin:0 0 0 39px !important;}
+
 }
+
 /***** Responsiv Css Close*****/
 
 /*Loader Page Css Start*/
@@ -877,4 +909,8 @@ div#appPreView h3 {
 /*Nav Css*/
 .marginBottom h5{margin-top:10px;}
 .basePrice{color:#af0b0b; font-size:13px !important;}
- 
+ .prodBigImage {
+    border: 1px solid #DDDDDD;
+    max-width: 100%;
+}
+.prosmallpic img{border:1px solid #DDDDDD;}
