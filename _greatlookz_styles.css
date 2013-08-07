@@ -679,64 +679,140 @@ hr {
 
 
 /***** Responsiv Css Start*****/
+ 
+@media only screen and (min-width:901px) and (max-width:935px) {
+.topmenu{margin:0 auto; padding:0px; width:98%;}
+.wrapper{margin:0 auto; padding:0px; width:98%;}
+.quickserch label{margin:4px 0 0 145px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
+.nav ul{margin:0 0 0 27px; padding:0px; width:85%; line-height:7px;}
+.motherdayimg{margin:0 0 0 4px; padding:0px; float:left;} 
+.singupbox{margin:0 0 0 4px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:23px; max-width:888px; width:100%;}
+.featureinn{margin:0 0 0 5px; padding:0px; float:left; position:relative;}
+.feaspace{margin:0px; padding:0px;}
+.spacenone{margin:0px; padding:0px;}
+}
 
-@media only screen and (min-width:641px) and (max-width:768px) {
+@media only screen and (min-width:861px) and (max-width:900px) {
+.topmenu{margin:0 auto; padding:0px; width:98%;}
+.wrapper{margin:0 auto; padding:0px; width:98%;}
+.quickserch label{margin:4px 0 0 155px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
+.nav ul{margin:0px; padding:0px; width:100%; line-height:7px;}
+.nav ul li{margin:0px; padding:10px 0 10px 34px; list-style-type:none; float:left;}
+.motherdaybox{margin:0 0 0 200px; padding:0px; width:70%; float:left;}
+.motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
+.singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.partydress{margin:10px 0 0 10px;}
+.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:20px; width:96%;}
+.featurebox{margin:9px 0 0 210px; padding:0px; width:70%; float:left;}
+.featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
+.featureinn img{border:1px solid #d3cdc0;} 
+.proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 25px !important;}
+.footerbot ul{margin:0 0 0 50px !important; padding:0px; float:left;}
+.veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
+}
+
+@media only screen and (min-width:769px) and (max-width:860px) {
+.topmenu{margin:0 auto; padding:0px; width:98%;}
+.wrapper{margin:0 auto; padding:0px; width:98%;}
+.quickserch label{margin:4px 0 0 136px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
+.nav ul{margin:0px; padding:0px; width:100%; line-height:7px;}
+.nav ul li{margin:0px; padding:10px 0 10px 30px; list-style-type:none; float:left;}
+.motherdaybox{margin:0 0 0 182px; padding:0px; width:70%; float:left;}
+.motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
+.singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.partydress{margin:10px 0 0 10px;}
+.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:20px; width:96%;}
+.featurebox{margin:9px 0 0 192px; padding:0px; width:70%; float:left;}
+.featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
+.featureinn img{border:1px solid #d3cdc0;} 
+.proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 25px !important;}
+.footerbot ul{margin:0 0 0 45px !important; padding:0px; float:left;}
+.veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
+}
+
+
+@media only screen and (min-width:754px) and (max-width:768px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
 .quickserch label{margin:4px 0 0 72px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
-
 .nav ul{margin:0 0 0 27px; padding:0px; width:85%; line-height:7px;}
-
 .motherdaybox{margin:0 0 0 110px; padding:0px; width:70%; float:left;}
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .partydress{margin:10px 0 0 10px;}
-
 .faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:20px; width:96%;}
-
 .featurebox{margin:9px 0 0 121px; padding:0px; width:70%; float:left;}
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
 .proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 .catedoryspacing{margin:0 0 0 25px !important;}
-	
 .footerbot ul{margin:0 0 0 16px !important; padding:0px; float:left;}
 .veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
-
 }
 
+@media only screen and (min-width: 701px) and (max-width: 753px) {
+.topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
+.wrapper{margin:0 auto; padding:0px; width:96%;}
+.quickserch label{margin:4px 0 0 72px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
+.nav ul{margin:0 0 0 27px; padding:0px; width:85%; line-height:7px;}
+.motherdaybox{margin:0 0 0 120px; padding:0px; width:70%; float:left;}
+.motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
+.singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.partydress{margin:10px 0 0 10px;}
+.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:20px; width:96%;}
+.featurebox{margin:9px 0 0 131px; padding:0px; width:70%; float:left;}
+.featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
+.featureinn img{border:1px solid #d3cdc0;} 
+.proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 25px !important;}
+.footerbot ul{margin:0 0 0 16px !important; padding:0px; float:left;}
+.veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
+}
 
-
+@media only screen and (min-width: 641px) and (max-width: 700px) {
+.topmenu{margin:0 auto; padding:0px; max-width:640px; width:98%;}
+.wrapper{margin:0 auto; padding:0px; width:98%;}
+.quickserch label{margin:4px 0 0 58px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
+.nav ul{margin:0 0 0 27px; padding:0px; width:85%; line-height:7px;}
+.motherdaybox{margin:0 0 0 101px; padding:0px; width:70%; float:left;}
+.motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
+.singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.partydress{margin:10px 0 0 10px;}
+.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:16px; width:96%;}
+.featurebox{margin:9px 0 0 110px; padding:0px; width:70%; float:left;}
+.featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
+.featureinn img{border:1px solid #d3cdc0;} 
+.proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 25px !important;}
+.footerbot ul{margin:0 0 0 10px !important; padding:0px; float:left;}
+.veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
+}
 
 @media only screen and (min-width: 481px) and (max-width: 640px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
 .quickserch label{margin:4px 0 0 20px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
 .nav ul{margin:0 0 0 27px; padding:0px; width:85%; line-height:7px;}
-
 .motherdaybox{margin:0 0 0 67px; padding:0px; width:92%; float:left;}
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .partydress{margin:10px 0 0 10px;}
-
 .faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:16px; width:95%;}
-
 .featurebox{margin:9px 0 0 77px; padding:0px; width:92%; float:left;}
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
-
 .bobbytop{margin:0 0 13px 0 !important; padding:0 30px !important; max-width:565px !important; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
 .bobbytop p{margin:0 auto; padding:0px; max-width:565px; width:100%; line-height:22px;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
-
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; float:left; min-height:165px; display:none;}
 .proimgbox{margin:0 0 0 70px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
-
 .footerbot ul{margin:0 0 0 125px; padding:0px; float:left;}
 .hidesec{display:none !important;}
 .catedoryspacing{margin:0 0 0 76px !important;}
-
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -747,38 +823,73 @@ hr {
 .quickserch{margin:9px 0 0 11px; padding:0px; max-width:930px; width:100%; float:left;}  
 .quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
 .quickenter{margin:0 0 0 10px; padding:5px 5px 4px 5px; background:url(images/quick_serchbg1.gif) no-repeat; max-width:188px; width:100%; border:0px; float:left; font-size:11px;}
-
 .motherdaybox{margin:0px; padding:0px; max-width:930px; width:100%; float:left;}
 .motherdayimg{margin:10px 0 0 0;  padding:0px; float:left; width:49%;} 
 .singupbox{margin:10px 0 0 9px; padding:0 12px; max-width:197px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .signtitle{margin:6px 0 0 -1px; padding:0px; float:left;}
 .spacenone{margin:10px 8px 0 0; padding:0px;}
-
 .featurebox{margin:0 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
-.featureinn{margin:9px 0 0 12px; padding:0px; float:left; position:relative; width:48%;}
+.featureinn{margin:9px 0 0 12px; padding:0px; float:left; position:relative; width:51%;}
 .feaspace{margin:9px 0 0 0 ; padding:0px;}
 .faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:8px; max-width:431px; width:100%;}
-
 .bobbytop{margin:10px 0 2px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
 .bobbytop p{margin:0 auto; padding:0px; max-width:421px; width:100%; line-height:22px;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
-
 .innspace{margin:9px 0 0 0; padding:0px;}
-
 .footer{margin:10px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FFF !important; float:left; min-height:165px; display:none;}
-
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:370px !important;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:365px !important; background:#FFF;}
-
 .proimgbox{margin:0 0 0 -6px !important;  padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
 .footerbot ul{margin:0 0 0 45px !important; padding:0px; float:left;}
-
 .footerbot ul{margin:0 0 0 50px; padding:0px; float:left;}
 .hidesec{display:none !important;}
 .catedoryspacing{margin:0 0 0 115px !important;}
+}
 
+@media only screen and (max-width: 464px) {
+img{max-width:none !important;}
+.headtopmenu{background:url(images/body_bg.gif) repeat; height:58px; width:100%; float:left; font-family:Arial, Helvetica, sans-serif;} 
+.topmenu{margin:0 auto; padding:0px; max-width:320px; width:96%;}
+.topmenuL{margin:0px; padding:4px 0 0 0; color:#838485; font-size:13px; font-weight:bold; text-align:center; float:left; width:100%; max-width:320px;}
+.topmenuR{margin:0px; padding:7px 0 0 0; font-size:17.34px; text-align:center; float:left; width:100%; max-width:320px;}
+.topmenuR a{color:#000000;}
+.topmenuR a:hover{color:#726a5a;} 
+.topmenuR i{padding:0 7px; color:#000000;}
+.cart{padding:6px 3px 0 8px;}
+.wrapper{margin:0 auto; padding:0px; width:94%;}
+.banner{margin:5px 0 0 0; padding:0px; max-width:930px; width:100%; float:left; display:none;} 
+.quickserch{margin:9px 0; padding:0px; max-width:320px; width:100%; float:left;}  
+.quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left; max-width:320px; width:100%; text-align:center;}
+.quickenter{margin:10px 0 0 0; padding:5px 5px 4px 5px; background:url(images/quick_serchbg320.gif) no-repeat; max-width:289px; width:100%; border:0px; float:left; font-size:11px; text-align:center;}
+.quicksearch{margin:10px 0 0 97px; padding:0px;}
+.motherdaybox{margin:0 0 0 21px; padding:0px; width:92%; float:left;}
+.motherdayimg{margin:10px 0 0 10px; padding:0px; float:left;} 
+.singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.featurebg{margin:9px 0 0 0; padding:0 0 0 0; max-width:930px; width:100%; float:left;}
+.faeturedL{margin:0px; padding:0px; float:left;}
+.faeturedM{margin:0px; padding:7px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:24px; text-align:center; font-size:15px; color:#797979; font-weight:bold; letter-spacing:1px; max-width:258px; width:100%;}
+.faeturedR{margin:0px; padding:0px; float:left;}
+.featurebox{margin:0 0 0 31px; padding:0px; width:80%; float:left;}
+.featureinn{margin:10px 0 0 0 !important; padding:0px; float:left; position:relative;}
+.featureinn img{border:1px solid #d3cdc0;} 
+.nav{visibility:hidden; height:0;}
+#responsive-menu{display:inline-block !important; width:100%; margin-top:13px;}
+.bobbytop{margin:0px; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
+.bobbytop p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
+.fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
+.footer{margin:10px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
+.footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FFF !important; float:left; min-height:165px; display:none;}
+div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:215px !important;}
+div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:200px !important; background:#FFF;}
+.loadlogo img{width:100%;}
+.proimgbox{margin:0 0 0 27px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
+.footerbot ul{margin:0 0 10px 0 !important; padding:0px; float:left; text-align:center; width:100%;}
+.fristuspace{margin:0px !important;}
+.hidesec{display:none !important;}
+.catedoryspacing{margin:0 0 0 39px !important;}
 }
 
 @media only screen and (max-width: 320px) {
@@ -809,26 +920,20 @@ img{max-width:none !important;}
 .featureinn img{border:1px solid #d3cdc0;} 
 .nav{visibility:hidden; height:0;}
 #responsive-menu{display:inline-block !important; width:100%; margin-top:13px;}
-
 .bobbytop{margin:0px; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a; display:inline-block !important;} 
 .bobbytop p{margin:0 auto; padding:0px; max-width:695px; width:100%; line-height:22px;}
 .fromtext{margin:6px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:14px; color:#726a5a; display:none;}
-
 .footer{margin:10px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FFF !important; float:left; min-height:165px; display:none;}
-
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:215px !important;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:200px !important; background:#FFF;}
 .loadlogo img{width:100%;}
 .proimgbox{margin:0 0 0 27px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
-
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
-
 .footerbot ul{margin:0 0 10px 0 !important; padding:0px; float:left; text-align:center; width:100%;}
 .fristuspace{margin:0px !important;}
 .hidesec{display:none !important;}
 .catedoryspacing{margin:0 0 0 39px !important;}
-
 }
 
 /***** Responsiv Css Close*****/
