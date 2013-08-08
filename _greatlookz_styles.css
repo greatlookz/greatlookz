@@ -685,22 +685,19 @@ hr {
 .wrapper{margin:0 auto; padding:0px; width:98%;}
 .quickserch label{margin:4px 0 0 168px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
 .nav ul{margin:0 0 0 0; padding:0px; width:100%; line-height:7px;}
-
 .motherdaybox{margin:0 0 0 225px; padding:0px; width:51%; float:left;}
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
 .partydress{margin:10px 0 0 0;}
-
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .featurebox{margin:9px 0 0 228px; padding:0px; width:52%; float:left;}
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
-
-
 .faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:23px; max-width:888px; width:100%;}
 .feaspace{margin:0px; padding:0px;}
 .spacenone{margin:0px; padding:0px;}
 .fromtext p{margin:0 auto; padding:0px; max-width:845px; width:100%; line-height:22px;}
-
+.proimgbox{margin:0 0 0 93px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 93px !important;}
 }
 
 @media only screen and (min-width:861px) and (max-width:900px) {
@@ -709,23 +706,20 @@ hr {
 .quickserch label{margin:4px 0 0 155px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
 .nav ul{margin:0px; padding:0px; width:100%; line-height:7px;}
 .nav ul li{margin:0px; padding:10px 0 10px 34px; list-style-type:none; float:left;}
-
 .motherdaybox{margin:0 0 0 202px; padding:0px; width:55%; float:left;}
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .featurebox{margin:9px 0 0 212px; padding:0px; width:55%; float:left;}
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
-
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .partydress{margin:10px 0 0 10px;}
 .faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:20px; width:96%;}
-.proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
-.catedoryspacing{margin:0 0 0 25px !important;}
+.proimgbox{margin:0 0 0 78px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 79px !important;}
 .footerbot ul{margin:0 0 0 50px !important; padding:0px; float:left;}
 .veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
 .fromtext p{margin:0 auto; padding:0px; max-width:800px; width:100%; line-height:22px;}
-
 }
 
 @media only screen and (min-width:769px) and (max-width:860px) {
@@ -742,8 +736,8 @@ hr {
 .featurebox{margin:9px 0 0 192px; padding:0px; width:70%; float:left;}
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
-.proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
-.catedoryspacing{margin:0 0 0 25px !important;}
+.proimgbox{margin:0 0 0 65px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 73px !important;}
 .footerbot ul{margin:0 0 0 45px !important; padding:0px; float:left;}
 .veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
 }
@@ -803,7 +797,6 @@ hr {
 .nav ul li{margin:0px; padding:10px 0 0 42px; list-style-type:none; float:left;}
 .navagationfrist{padding:10px 0 0 18px !important;}
 .centernav{margin:0 0 0 112px !important; padding:0px;}
-
 .motherdaybox{margin:0 0 0 101px; padding:0px; width:70%; float:left;}
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
@@ -812,8 +805,8 @@ hr {
 .featurebox{margin:9px 0 0 110px; padding:0px; width:70%; float:left;}
 .featureinn{margin:0 12px 12px 0 !important; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
-.proimgbox{margin:0 0 0 15px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
-.catedoryspacing{margin:0 0 0 25px !important;}
+.proimgbox{margin:0 0 0 100px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.catedoryspacing{margin:0 0 0 109px !important;}
 .footerbot ul{margin:0 0 0 10px !important; padding:0px; float:left;}
 .veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
 }
@@ -851,7 +844,6 @@ hr {
 .wrapper{margin:0 auto; padding:0px; width:96%;}
 .nav ul{margin:0px !important; padding:0px; width:100% !important;}
 .nav ul li{margin:0px; padding:10px 0 0 40px; list-style-type:none; float:left;}
-
 .quickserch{margin:9px 0 0 11px; padding:0px; max-width:930px; width:100%; float:left;}  
 .quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
 .quickenter{margin:0 0 0 10px; padding:5px 5px 4px 5px; background:url(images/quick_serchbg1.gif) no-repeat; max-width:188px; width:100%; border:0px; float:left; font-size:11px;}
@@ -879,7 +871,6 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .hidesec{display:none !important;}
 .catedoryspacing{margin:0 0 0 115px !important;}
 .navagationfrist{padding:10px 0 0 0 !important;}
-
 }
 
 @media only screen and (max-width: 464px) {
@@ -917,12 +908,12 @@ img{max-width:none !important;}
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#FFF !important; float:left; min-height:165px; display:none;}
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:370px !important;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:365px !important; background:#FFF;}
-.proimgbox{margin:0 0 0 27px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
+.proimgbox{margin:0 0 0 90px !important; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:block;}
 .footerbot ul{margin:0 0 10px 0 !important; padding:0px; float:left; text-align:center; width:100%;}
 .fristuspace{margin:0px !important;}
 .hidesec{display:none !important;}
-.catedoryspacing{margin:0 0 0 39px !important;}
+.catedoryspacing{margin:0 0 0 95px !important;}
 }
 
 @media only screen and (max-width: 320px) {
