@@ -853,7 +853,7 @@ hr {
 .motherdayimg{margin:10px 0 0 0;  padding:0px; float:left; width:45%;} 
 .singupbox{margin:10px 0 0 9px; padding:0 12px; max-width:197px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .spacenone{margin:10px 8px 0 0; padding:0px;}
-.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:12px; max-width:520px; width:100%;}
+.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:12px; max-width:515px; width:100%;}
 
 .featurebox{margin:0 0 0 44px; padding:0px; max-width:500px; width:100%; float:left;}
 .featureinn{margin:9px 0 0 9px; padding:0px; float:left; position:relative; width:45%;}
@@ -964,7 +964,7 @@ img{max-width:none !important;}
 .quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left; max-width:320px; width:100%; text-align:center;}
 .quickenter{margin:10px 0 0 0; padding:5px 5px 4px 5px; background:url(images/quick_serchbg320.gif) no-repeat; max-width:289px; width:100%; border:0px; float:left; font-size:11px; text-align:center;}
 .quicksearch{margin:10px 0 0 97px; padding:0px;}
-.motherdaybox{margin:0 0 0 32px; padding:0px; width:65%; float:left;}
+.motherdaybox{margin:0 0 0 32px; padding:0px; width:60%; float:left;}
 .motherdayimg{margin:10px 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:10px 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .featurebg{margin:9px 0 0 0; padding:0 0 0 0; max-width:930px; width:100%; float:left;}
