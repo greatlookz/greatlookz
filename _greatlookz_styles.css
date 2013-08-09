@@ -916,7 +916,7 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .catedoryspacing{margin:0 0 0 95px !important;}
 }
 
-@media only screen and (min-width: 460px) and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 img{max-width:none !important;}
 .headtopmenu{background:url(images/body_bg.gif) repeat; height:58px; width:100%; float:left; font-family:Arial, Helvetica, sans-serif;} 
 .topmenu{margin:0 auto; padding:0px; max-width:320px; width:96%;}
