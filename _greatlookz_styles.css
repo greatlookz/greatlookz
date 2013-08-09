@@ -839,13 +839,17 @@ hr {
 }
 
 @media only screen and (max-width: 579px) {
-.motherdaybox{margin:0 0 0 67px; padding:0px; width:92%; float:left; background:#FFFF00 !important;}
+.motherdaybox{margin:0 0 0 67px; padding:0px; width:92%; float:left; background:#FF0000 !important;}
+}
 
+@media only screen and (max-width: 569px) {
+.motherdaybox{margin:0 0 0 67px; padding:0px; width:92%; float:left; background:#000000 !important;}
 }
 
 
 
-@media only screen and (min-width: 567px) and (max-width: 579px) {
+
+/*@media only screen and (min-width: 567px) and (max-width: 579px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
 .quickserch label{margin:4px 0 0 20px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
@@ -870,7 +874,7 @@ hr {
 .footerbot ul{margin:0 0 0 125px; padding:0px; float:left;}
 .hidesec{display:none !important;}
 .catedoryspacing{margin:0 0 0 76px !important;}
-}
+}*/
  
 @media only screen and (min-width: 327px) and (max-width: 480px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
