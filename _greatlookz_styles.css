@@ -960,6 +960,10 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .catedoryspacing{margin:0 0 0 39px !important;}
 }
 
+@media only screen and (max-width: 326px) {
+.header{background:#FF0000 !important;}
+}
+
 /***** Responsiv Css Close*****/
 
 /*Loader Page Css Start*/
