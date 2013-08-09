@@ -838,6 +838,13 @@ hr {
 .catedoryspacing{margin:0 0 0 76px !important;}
 }
 
+@media only screen and (max-width: 579px) {
+.motherdaybox{margin:0 0 0 67px; padding:0px; width:92%; float:left; background:#FFFF00 !important;}
+
+}
+
+
+
 @media only screen and (min-width: 567px) and (max-width: 579px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
@@ -864,9 +871,7 @@ hr {
 .hidesec{display:none !important;}
 .catedoryspacing{margin:0 0 0 76px !important;}
 }
-
-
-
+ 
 @media only screen and (min-width: 327px) and (max-width: 480px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
