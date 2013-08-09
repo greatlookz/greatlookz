@@ -811,7 +811,7 @@ hr {
 .veiwbox{ margin:0 12px 0 0 !important; padding:0px; float:right; text-align:right;}
 }
 
-@media only screen and (min-width: 481px) and (max-width: 640px) {
+@media only screen and (min-width: 566px) and (max-width: 640px) {
 .topmenu{margin:0 auto; padding:0px; max-width:640px; width:96%;}
 .wrapper{margin:0 auto; padding:0px; width:96%;}
 .quickserch label{margin:4px 0 0 20px; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
