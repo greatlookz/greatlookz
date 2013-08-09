@@ -966,7 +966,7 @@ img{max-width:none !important;}
 .quicksearch{margin:10px 0 0 97px; padding:0px;}
 .motherdaybox{margin:0 0 0 32px; padding:0px; width:60% !important; float:left;}
 .motherdayimg{margin:10px 0 0 10px; padding:0px; float:left;} 
-.singupbox{margin:10px 0 0 10px; padding:0 25px 0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.singupbox{margin:10px 0 0 10px; padding:0 25px 0 12px; max-width:199px !important; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .featurebg{margin:9px 0 0 0; padding:0 0 0 0; max-width:930px; width:100%; float:left;}
 .faeturedL{margin:0px; padding:0px; float:left;}
 .faeturedM{margin:0px; padding:7px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:24px; text-align:center; font-size:15px; color:#797979; font-weight:bold; letter-spacing:2px; max-width:280px; width:100%;}
