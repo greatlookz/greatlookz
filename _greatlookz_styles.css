@@ -307,11 +307,11 @@ HELP PAGES
 #contactForm fieldset{border:1px solid #cccccc; padding:10px; background:#f4f3ec;}
 #contactForm div{margin-bottom:10px}
 #contactForm label{width:105px; display:inline-block; margin-right:6px;	vertical-align:top;	text-align:right;}
-#contactForm input, #contactForm textarea{width:145px;}
 #contactForm textarea{height:125px;}
-#contactForm input, #contactForm textarea{border: 1px solid #CCCCCC; padding:2px; width:349px;}
+#contactForm input, #contactForm textarea{padding:2px;}
 #contactForm textarea{height:125px;}
-.sendmess{margin:0px; padding:0px; font-size:0px; border:0px !important; height:23px !important; width:136px !important; cursor:pointer; background:url(images/send_massage.gif) no-repeat;}
+.sendmess{margin:0px; padding:0px; font-size:0px; border:0px; height:23px; width:136px; cursor:pointer; background:url(images/send_massage.gif) no-repeat;}
+.contactin{width:74%; border: 1px solid #CCCCCC;}
 /***** CONTACT US ******/
 
 /**** FAQ *****/
