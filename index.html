@@ -134,7 +134,7 @@ css files should be included before any .js file to ensure they are downloaded i
       
       <div class="nav">
         <ul>
-          <li class="navagationfrist">
+          <li>
           	<a href="#" onClick="return showContent('category',{navcat: '.dressy_gloves'});">Gloves</a>
           </li>
           <li>
@@ -323,7 +323,7 @@ the homepageTemplate template is loaded into mainContentArea by default when the
               <form id='headerSearchFrm' name='headerSearchFrm' action='#' class='productSearchForm' method='get'>
                 <label>QUICK SEARCH</label>
                 <input type='search' name='KEYWORDS' id='txtSearch' class="quickenter" placeholder='Enter Item # or Keyword'/>
-                <input id="btnTopNavSearch" type="image" class="quicksearch" src="images/search.gif" value=""/>
+                <div class="seasmall"><input id="btnTopNavSearch" type="image" class="quicksearch" src="images/search.gif" value=""/></div>
               </form>
               </div>
         </div>
@@ -341,7 +341,7 @@ the homepageTemplate template is loaded into mainContentArea by default when the
           	<div class="motherdayimg">
             	<a href="#."><img src="images/daypic2.jpg" alt="" /></a>
           	</div>
-          	<div class="motherdayimg">
+          	<div class="motherdayimg spacingc">
            	 <a href="#."><img src="images/daypic3.jpg" alt="" /></a>
           	</div>
           	<div class="singupbox">
@@ -361,8 +361,8 @@ the homepageTemplate template is loaded into mainContentArea by default when the
                     <label>Email</label>
                     <input type="email" class="fullinpbox" required='required' name='login' value='' placeholder='email address' />
                     <label>Full Name</label>
-                    <input type="text" class="fullinpbox" required='required' name='fullname' placeholder='full name' />
-                    <input type="image" value="" name="" src="images/subscribe.gif"  style="border:0px; margin:5px 0 0 0; width:90px;" />
+                    <input type="text" class="fullinpbox" required='required' name='fullname' placeholder='full name' /><br clear="all">
+                    <input type="image" value="" name="" src="images/subscribe.gif"  style="border:0px; margin:5px 0 0 0; width:90px;"/>
                   </form>
                 </div>
           </div>
@@ -453,8 +453,7 @@ don't modify the 'data-templateid' unless you are changing template names and up
           	<img src='blank.gif' class='catThumb' alt='' data-bind='var: category(%meta.CAT_THUMB); format:imageURL;' width='221' height='146' />
            </div>
           <div class='catName white2LGray protitlebox'>
-          	<span data-bind='var: category(pretty); format:catText; extension: myRIA;'></span>
-          </div>
+          	<span data-bind='var: category(pretty); format:catText; extension: myRIA;'></span>          </div>
           <!-- <ul class="listcat">
             <li data-bind='var: category(pretty); format:catText; extension: myRIA;'> </li>
           </ul>-->
