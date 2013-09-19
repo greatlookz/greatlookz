@@ -234,7 +234,7 @@ BREADCRUMB
 
 ***************************************************/
 
-.breadcrumb	{margin:0px; padding:10px 0 7px 0; text-transform:uppercase; font-size:11px; border-bottom:2px solid #e2e1d7;}
+.breadcrumb	{padding:10px 0 7px 0; text-transform:uppercase; font-size:11px; border-bottom:2px solid #e2e1d7; max-width: 930px;}
 .breadcrumb li{padding:0; margin:0; cursor:pointer; padding-right:5px;}
 .breadcrumb li:after{content:" \00BB "; padding-left:5px; font-weight:bold; color:#999999;}
 .breadcrumb li:last-child:after{content:"";}
@@ -389,7 +389,7 @@ CHECKOUT
 .items{color:#cc7485;}
 .header{margin:0px; padding:0px; max-width:930px; width:100%; float:left;}  
 .logo{margin:15px 0 0 0; padding:0px; max-width:930px; width:100%; text-align:center;}
-.nav{margin:0px; padding:0 0 10px 0; max-width:930px; width:100%; float:left; background:url(images/nav_bg.gif) repeat-x bottom; font-size:16px;}
+.nav{margin:0 auto; padding:0 0 40px 0; max-width:930px; width:100%; background:url(images/nav_bg.gif) repeat-x bottom; font-size:16px;}
 .nav ul{margin:0px; padding:0px;}
 .nav ul li{margin:0px; padding:10px 0 0 40px; list-style-type:none; float:left;}
 .nav ul li:first-child{padding-left:25px;}
@@ -482,7 +482,7 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 .contactbox{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; min-height:400px;}
 .contactbox h1{ margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:20px; font-weight: normal;}
 .contactbox p{ margin:0px; padding:10px 0 0 0; color:#797979; font-size:12px; font-weight: normal; line-height:20px;} 
-.cateinnpages{margin:0px; padding:0px; color:#797979; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.cateinnpages{margin:0px auto; max-width:930px; padding:0px; color:#797979; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
 .cateinnptitle{margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:12px; font-weight: normal;}
 .proimgbox{padding:0px; margin: 0 auto; font-family:Georgia, "Times New Roman", Times, serif;}
 .proimgbox li{margin:0 0 9px 9px; padding:0px; border:1px solid #D3CDC0; width:221px; height:146px; position:relative;}
@@ -509,6 +509,9 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 @media only screen and (min-width:641px) and (max-width:959px) {
 .topmenu{margin:0 auto; padding:0px; width:98%;}
 .wrapper{margin:0 auto; padding:0px; width:98%;}
+.nav {max-width: 480px; padding: 0px 0px 70px 0px;}
+.nav ul li:first-child {padding-left: 12px}
+.scarvesPadding {padding-left: 4px;}
 
 .banner img{margin:5px 0 0 0; padding:0px; width:100%; float:left; /*height:291px;*/} 
 .motherdaybox {width:100%;margin:0px;}
@@ -527,6 +530,8 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 .spacehide{margin:0px; padding:0px;}
 .footerbot ul{margin:0 0 0 30px; padding:0px; float:left;}
 
+.breadcrumb {max-width: 480px;}
+.cateinnpages {max-width:480px;}
 .proimgbox {max-width: 465px;}
 }
 
@@ -537,6 +542,9 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .topmenu{margin:0 auto; padding:0px; width:98%;}
 .wrapper{margin:0 auto; padding:0px; width:98%;}
+.nav {max-width: 480px; padding: 0px 0px 70px 0px;}
+.nav ul li:first-child {padding-left: 12px}
+.scarvesPadding {padding-left: 4px;}
 
 .quickserchM{margin:0 auto; width:81%;}
 .quickenter{border: 1px solid #67604E; float: left; font-size: 11px; margin: 0 0 0 10px; padding: 3px 5px;  width: 37%;}
@@ -546,7 +554,6 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .motherdayimg {margin:0 0 0 12px; width:47%;}
 .motherdayimg img {width:100%;}
 .spacingc{margin-top:10px;}
-.nav ul li{float: left; list-style-type: none; margin: 0; padding: 10px 0 0 35px;}
 
 .singupbox {max-width:none; width:41.1%; margin-top:10px; margin-left:12px; min-height:175px;}
 .signtitle img {width:100%;}
@@ -569,6 +576,8 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .hidesec{display:none;}
 /*Footer*/
 
+.breadcrumb {max-width: 480px;}
+.cateinnpages {max-width:480px;}
 .proimgbox {max-width: 465px;}
 }
 
