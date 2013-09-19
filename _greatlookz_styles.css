@@ -389,7 +389,7 @@ CHECKOUT
 .items{color:#cc7485;}
 .header{margin:0px; padding:0px; max-width:930px; width:100%; float:left;}  
 .logo{margin:15px 0 0 0; padding:0px; max-width:930px; width:100%; text-align:center;}
-.nav{margin:0px; padding:0 0 10px 0; max-width:930px; width:100%; float:left; background:url(images/nav_bg.gif) repeat-x bottom; font-size:16.03px;}
+.nav{margin:0px; padding:0 0 10px 0; max-width:930px; width:100%; float:left; background:url(images/nav_bg.gif) repeat-x bottom; font-size:16px;}
 .nav ul{margin:0px; padding:0px;}
 .nav ul li{margin:0px; padding:10px 0 0 40px; list-style-type:none; float:left;}
 .nav ul li:first-child{padding-left:25px;}
@@ -486,7 +486,7 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 .cateinnptitle{margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:12px; font-weight: normal;}
 .proimgbox{margin:0 0 0 0; padding:0px; float:left; font-family:Georgia, "Times New Roman", Times, serif;}
 .proimgbox li{margin:0 0 9px 9px; padding:0px; border:1px solid #D3CDC0; width:221px; height:146px; position:relative;}
-.protitlebox{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:0px; font-size:12px; text-transform:uppercase; text-align:right; width:186px; margin:0 0 0 1px; padding:7px 35px 0 0; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
+.protitlebox{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:0px; font-size:12px; text-transform:uppercase; text-align:right; width:185px; margin:0 0 0 1px; padding:7px 35px 0 0; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
 .protitlebox a{color:#5f5745;}
 .protitlebox a:hover{color:#000;}
 /*Inner Page Css*/
