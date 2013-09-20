@@ -95,7 +95,7 @@ and offMenu is toggle off, hiding the change button.
 /* messaging css. some error css is defined in the jqueryui styles */
 
 .appMessage P{padding:0; margin:0;} /* used in app messaging for warnings, alerts, successes, etc */
-.zMessage{margin:6px; 0}
+.zMessage{margin:6px;}
 .appMessage	{margin-bottom:12px; position:relative;}
 .appMessage .stdMargin {padding:5px;}
 .appMessage .ui-button	{position:absolute; top:-3px; right:-3px; z-index:100;}
@@ -509,25 +509,26 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 @media only screen and (min-width:641px) and (max-width:959px) {
 .topmenu{margin:0 auto; padding:0px; width:98%;}
 .wrapper{margin:0 auto; padding:0px; width:98%;}
-.nav {max-width: 480px; padding: 0px 0px 70px 0px;}
-.nav ul li:first-child {padding-left: 12px}
-.scarvesPadding {padding-left: 4px;}
+.nav {max-width: 610px; padding: 0px 0px 70px 0px;}
+.nav ul li{margin:0px; padding:10px 0 0 66px; list-style-type:none; float:left;}
 
+.homepageTemplate{max-width: 640px; margin: 0 auto;}
 .banner img{margin:5px 0 0 0; padding:0px; width:100%; float:left; /*height:291px;*/} 
-.motherdaybox {width:100%;margin:0px;}
-.motherdayimg {margin:0 0 0 7px; width:24%;}
+.motherdaybox {margin:0 auto; width:90%; float:none;}
+.motherdayimg {margin:10px 0 0 12px; width:47%;}
 .motherdayimg img {width:100%;}
-.singupbox {max-width:auto;width:20%;}
-.signtitle img {width:130px;}
+.singupbox {max-width:none; width:248px; margin-top:10px; margin-left:12px; height:179px;}
+.signtitle img {width:100%;}
 
 .quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; border:1px solid #67604e; width:39%; float:left; font-size:11px;}
+
 .featurebg img{width:100%; height:31px;}
 
-.featureinn{width:24%; margin:0 0 0 8px;}
-.featureinn img{width:100%; margin:0px;}
+.featurebox{margin:0 auto; width:90%; float:none;}
+.featureinn{margin:10px 0 0 12px; float:left; width:47%;}
+.featureinn img{width:100%;}
+.featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:96%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
 
-.featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:100%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
-.spacehide{margin:0px; padding:0px;}
 .footerbot ul{margin:0 0 0 30px; padding:0px; float:left;}
 
 .breadcrumb {max-width: 480px;}
@@ -555,7 +556,7 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .motherdayimg img {width:100%;}
 .spacingc{margin-top:10px;}
 
-.singupbox {max-width:none; width:41.1%; margin-top:10px; margin-left:12px; min-height:175px;}
+.singupbox {max-width:none; width:230px; margin-top:10px; margin-left:12px; min-height:168px;}
 .signtitle img {width:100%;}
 
 .featurebg img{width:100%; height:31px;}
@@ -595,9 +596,10 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .topmenu{margin:0 auto; padding:0px; width:98%;}
 .wrapper{margin:0 auto; padding:0px; width:98%;}
 
-.nav{height:0; visibility:hidden;}
+.nav{display: none;}
 #responsive-menu{display:inline-block; margin-top:13px; width:98%;}
 .banner{display:none;}
+.header select {max-width: 320px; margin: 0 auto;}
 
 .seasmall{width:100%; float:left;}
 
@@ -632,6 +634,7 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .hidesec{display:none;}
 /*Footer*/
 
+.cateinnpages  {max-width: 320px;}
 .proimgbox {max-width: 240px;}
 }
 
