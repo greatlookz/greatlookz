@@ -378,7 +378,7 @@ CHECKOUT
 .wrapper{margin:0 auto; padding:0px; max-width:930px; width:100%;}
 
 /*Header Start*/
-.headtopmenu{background:url(images/body_bg.gif) repeat; height:27px; width:100%; float:left; font-family:Arial, Helvetica, sans-serif;} 
+.headtopmenu{background:url(images/body_bg.gif) repeat; height:27px; width:100%; font-family:Arial, Helvetica, sans-serif;} 
 .topmenu{margin:0 auto; padding:0px; max-width:930px; width:100%;}
 .topmenuL{margin:0px; padding:4px 0 0 0; max-width:200px; float:left; color:#838485; font-size:13px; font-weight:bold;}
 .topmenuR{margin:0px; padding:4px 0 0 0; max-width:200px; float:right; font-size:12.61px;} 
@@ -387,7 +387,7 @@ CHECKOUT
 .topmenuR i{padding:0 7px;}
 .cart{padding:3px 3px 0 8px;}
 .items{color:#cc7485;}
-.header{margin:0px; padding:0px; max-width:930px; width:100%; float:left;}  
+.header{margin:0px; padding:0px; max-width:930px; width:100%;}  
 .logo{margin:15px 0 0 0; padding:0px; max-width:930px; width:100%; text-align:center;}
 .nav{margin:0 auto; padding:0 0 40px 0; max-width:930px; width:100%; background:url(images/nav_bg.gif) repeat-x bottom; font-size:16px;}
 .nav ul{margin:0px; padding:0px;}
@@ -398,13 +398,12 @@ CHECKOUT
 /*Header Close*/
 
 /*Middle Start*/
-.banner{margin:5px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;} 
+.banner{margin:5px 0 0 0; padding:0px; max-width:930px; width:100%;} 
 
-.quickserch{margin:9px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center;}  
-.quickserchM{ margin:0 auto; width:62%;}
-.quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:left;}
-.quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; /*background:url(images/quick_serchbg.gif) no-repeat;*/ border:1px solid #67604e; width:50%; float:left; font-size:11px;}
-.quicksearch{margin:0 0 0 6px; padding:0px; float:left;}
+.quicksearch{margin:9px 0; padding:0px; max-width:930px; width:100%;  text-align:center;}
+.quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold;}
+.quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; /*background:url(images/quick_serchbg.gif) no-repeat;*/ border:1px solid #67604e; width:50%; font-size:11px;}
+#searchButton {background: url(images/search.gif) no-repeat; height: 26px; width: 106px;}  
 
 .motherdaybox{margin:0px; padding:0px; max-width:930px; width:100%; float:left;}
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
@@ -493,7 +492,7 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 
 /*Nav Css*/
 .ddMenu {display: none;}
-.bobbytop{margin:18px 0 10px 0; padding:0px; width:98%; float:left; text-align:center; font-size:15px; color:#726a5a; line-height:22px; display:none;} 
+.bobbytop{margin:18px 0 10px 0; padding:0px; width:98%; text-align:center; font-size:15px; color:#726a5a; line-height:22px; display:none;} 
 /*Nav Css*/
 
 .marginBottom h5{margin-top:10px;}
@@ -512,14 +511,14 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 .nav ul li{margin:0px; padding:10px 0 0 66px; list-style-type:none; float:left;}
 
 .homepageTemplate{max-width: 640px; margin: 0 auto;}
-.banner img{margin:5px 0 0 0; padding:0px; width:100%; float:left; /*height:291px;*/} 
+.banner img{margin:5px 0 0 0; padding:0px; width:100%; /*height:291px;*/} 
 .motherdaybox {margin:0 auto; width:90%; float:none;}
 .motherdayimg {margin:10px 0 0 12px; width:47%;}
 .motherdayimg img {width:100%;}
 .singupbox {max-width:none; width:248px; margin-top:10px; margin-left:12px; height:179px;}
 .signtitle img {width:100%;}
 
-.quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; border:1px solid #67604e; width:39%; float:left; font-size:11px;}
+.quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; border:1px solid #67604e; width:39%; font-size:11px;}
 
 .featurebg img{width:100%; height:31px;}
 
@@ -547,9 +546,9 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .scarvesPadding {padding-left: 4px;}
 
 .quickserchM{margin:0 auto; width:81%;}
-.quickenter{border: 1px solid #67604E; float: left; font-size: 11px; margin: 0 0 0 10px; padding: 3px 5px;  width: 37%;}
+.quickenter{border: 1px solid #67604E; font-size: 11px; margin: 0 0 0 10px; padding: 3px 5px;  width: 37%;}
 
-.banner img{margin:5px 0 0 0; padding:0px; width:100%; float:left; /*height:291px;*/} 
+.banner img{margin:5px 0 0 0; padding:0px; width:100%; /*height:291px;*/} 
 .motherdaybox {margin:0 auto; width:90%; float:none;}
 .motherdayimg {margin:0 0 0 12px; width:47%;}
 .motherdayimg img {width:100%;}
@@ -587,7 +586,7 @@ div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; ma
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:250px; background:#FFF;}
 
 .wrapper {max-width: 320px; margin:0 auto;}
-.headtopmenu{background:url(images/body_bg.gif) repeat; height:58px; width:100%; float:left; font-family:Arial, Helvetica, sans-serif;} 
+.headtopmenu{background:url(images/body_bg.gif) repeat; height:58px; width:100%; font-family:Arial, Helvetica, sans-serif;} 
 .topmenuL{margin:0px; padding:4px 0 0 0; color:#838485; font-size:13px; font-weight:bold; text-align:center; float:left; width:100%; max-width:480px;}
 .topmenuR{margin:0px; padding:7px 0 0 0; font-size:17.34px; text-align:center; float:left; width:100%; max-width:480px;}
 .topmenuR a{color:#000000;}
@@ -602,13 +601,9 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .dropdown > div { border-top: 1px solid #605846; font-size: 15px; line-height: 34px; text-align: center;}
 .banner{display:none;}
 
-.seasmall{width:100%; float:left;}
-
-.quickserch{margin:9px 0; padding:0px; width:96%; float:left;}  
-.quickserchM{margin:0 auto; width:80%;}
-.quickserch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12.34px; font-weight:bold; float:none; width:100%; text-align:center;}
-.quickenter{margin:10px 0 0 0; padding:3px 5px 3px 5px; border: 1px solid #67604E; width:100%; border:1px solid #67604E; float:left; font-size:11px; text-align:center;}
-.quicksearch{margin:10px 0 0 0; padding:0px; text-align:center; float:none;}
+.quicksearch{margin:9px 0; padding:0px; width:96%; float:left;}  
+.quicksearch label{margin:4px 0 0 0; padding:0px; color:#4c4a4a; font-size:12px; font-weight:bold; float:none; width:100%; text-align:center;}
+.quickenter{margin:5px 0px; padding:3px 5px; border: 1px solid #67604E; width:100%; border:1px solid #67604E; font-size:11px; text-align:center;}
 
 .banner img{margin:5px 0 0 0; padding:0px; width:100%; float:left; /*height:291px;*/} 
 .motherdaybox {margin:0 auto; width:60%; float:none;}
