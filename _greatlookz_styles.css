@@ -512,10 +512,9 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 
 .homepageTemplate{max-width: 640px; margin: 0 auto;}
 .banner img{margin:5px 0 0 0; padding:0px; width:100%; /*height:291px;*/} 
-.motherdaybox {margin:0 auto; width:90%; float:none;}
-.motherdayimg {margin:10px 0 0 12px; width:47%;}
-.motherdayimg img {width:100%;}
-.singupbox {max-width:none; width:248px; margin-top:10px; margin-left:12px; height:179px;}
+.motherdaybox {margin:0 auto; max-width:480px; float:none;}
+.motherdayimg {margin:10px 0 0 12px;}
+.singupbox {margin-top:10px; margin-left:12px;}
 .signtitle img {width:100%;}
 .bobbytop{display:block;}
 .fromtext {display: none;}
@@ -523,10 +522,9 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 
 .featurebg img{width:100%; height:31px;}
 
-.featurebox{margin:0 auto; width:90%; float:none;}
-.featureinn{margin:10px 0 0 12px; float:left; width:47%;}
-.featureinn img{width:100%;}
-.featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:96%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
+.featurebox{margin:0 auto; max-width:480px; float:none;}
+.featureinn{margin:10px 0 0 12px; float:left;}
+.featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:95%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
 
 .footerbot ul{margin:0 0 0 30px; padding:0px; float:left;}
 
