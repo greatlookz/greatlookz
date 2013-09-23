@@ -133,7 +133,7 @@ and override using classes or id's as needed.
 .listStyleNone, .listStyleNone li{list-style:none;} /* apply to a ul or ol */
 .noPadOrMargin{padding:0; margin:0;}
 .fluidList li{float:left; margin:12px; padding:0; display:inline-block;}
-.quickView{position:absolute; top:55px; right:75px; z-index:1001; border-radius:4px; background:#CC7485; border: 1px solid #e86a8a; color:#FFF; padding:1px 3px; font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;} /* jqui modal has zindex 1002 */
+.quickView{position:absolute; top:55px; right:75px; z-index:1001; border-radius:4px; background:#CC7485; border: 1px solid #e86a8a; color:#FFF; padding:1px 3px;} /* jqui modal has zindex 1002 */
 
 /* over rides - height and width ensure each row is the same height. percentages could be used for width */
 .productList > li{border: 1px solid #D3CDC0; min-height:210px; margin:10px 9px 0 0; padding:10px 0; position:relative; width:221px; text-align:center; background:#FFFFFF;}
@@ -171,7 +171,7 @@ PRODUCT DETAIL PAGE (productTemplate)
 
 ***************************************************/
 
-.prodViewerContainer{width:100%; font-family:Arial, Helvetica, sans-serif; margin:10PX 0 0 0;}
+.prodViewerContainer{width:100%; margin:10PX 0 0 0;}
 .breadAndAddThisContainer{margin-bottom:8px; padding-bottom:8px; border-bottom:1px dotted #b6b6b6;}
 
 /* primary image and thumbnails */
@@ -379,7 +379,7 @@ CHECKOUT
 .wrapper{margin:0 auto; padding:0px; max-width:930px; width:100%;}
 
 /*Header Start*/
-.headtopmenu{background:url(images/body_bg.gif) repeat; height:27px; width:100%; font-family:Arial, Helvetica, sans-serif;} 
+.headtopmenu{background:url(images/body_bg.gif) repeat; height:27px; width:100%;} 
 .topmenu{margin:0 auto; padding:0px; max-width:930px; width:100%;}
 .topmenuL{margin:0px; padding:4px 0 0 0; max-width:200px; float:left; color:#838485; font-size:13px; font-weight:bold;}
 .topmenuR{margin:0px; padding:4px 0 0 0; max-width:200px; float:right; font-size:12.61px;} 
@@ -410,7 +410,7 @@ CHECKOUT
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:0 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .signtitle{margin:6px 0 0 0; padding:0px; float:left;}
-.singupbox p{margin:0px; padding:2px 0 0 0; font-size:10px; font-family:Arial, Helvetica, sans-serif; letter-spacing: -1px; float:left; width:100%; line-height:12px;}
+.singupbox p{margin:0px; padding:2px 0 0 0; font-size:10px; letter-spacing: -1px; float:left; width:100%; line-height:12px;}
 .singupfro{margin:0 0 0 0; padding:0px; width:100%; float:left;}
 .singupfro label{margin:5px 0 0 0; padding:2px 0 0 0; float:left; color:#716f6c; font-size:11px;}
 .singupfro input{margin:5px 0 0 0; padding:0 2px; float:right; width:53%; border:2px solid #d1d1ce; font-size:11px;} 
@@ -437,12 +437,12 @@ CHECKOUT
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#fdfef8; float:left; min-height:165px;}
 .footerbot ul{margin:0 0 0 50px; padding:0px; float:left;}
 .footerbot ul h2{margin:0px; padding:0 0 3px 0; font-size:11px; font-weight:bold; color:#4E4D49; text-transform:uppercase;}
-.footerbot ul li{margin:0px; padding:3px 0 0 0; list-style-type:none; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.footerbot ul li{margin:0px; padding:3px 0 0 0; list-style-type:none; font-size:12px;}
 .footerbot ul li a{color:#4C4D48;}
 .veiwbox{ margin:0 40px 0 0; padding:0px; float:right; text-align:right;}
 .geotext{margin:7px 0 0 0; padding:0px;}
-.phoneNumber{color:#58595B; font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:bolder; margin:7px 0 0 0;}
-.copyright{margin:0px; padding:7px 0 0 0; font-size:11px; font-family:Arial,Helvetica,sans-serif; color:#4E4D49;}
+.phoneNumber{color:#58595B; font-size:14px; font-weight:bolder; margin:7px 0 0 0;}
+.copyright{margin:0px; padding:7px 0 0 0; font-size:11px; color:#4E4D49;}
 .copyright a{color:#4E4D49; text-decoration:underline;}
 .copyright a:hover{color:#000000; text-decoration:none;}
 .fristuspace{margin:0 0 0 40px;}
@@ -454,7 +454,7 @@ div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; ma
 progress::-moz-progress-bar{background:#ccbea3;}
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:455px;
 background:#FFF;}
-div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:Arial, Helvetica, sans-serif;}
+div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 /*Loader Page Css Start*/
 
 /*Login In Log Out Css*/
@@ -471,20 +471,20 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 .proborview li{border:1px solid #CCCCCC;  margin:0 0 10px 0; min-height:50px; padding:10px; width:98.70%;}
 
 /*Inner Page Css*/
-.innerpagebox{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; min-height:400px;}
+.innerpagebox{margin:0px; padding:0px; min-height:400px;}
 .innerpagebox h1{ margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:20px; font-weight: normal;}
 .innerpagebox p{ margin:0px; padding:10px 0 0 0; color:#797979; font-size:12px; font-weight: normal; line-height:20px;} 
-.privapagebox{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; min-height:400px;}
+.privapagebox{margin:0px; padding:0px; min-height:400px;}
 .privapagebox h1{ margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:20px; font-weight: normal;}
 .privapagebox h3{ margin:0px; padding:10px 0 0 0; color:#726A5A; font-size:13px; font-weight: bold;}
 .privapagebox h5{color:#797979;}
 .privapagebox p{ margin:0px; padding:10px 0 0 0; color:#797979; font-size:12px; font-weight: normal; line-height:20px;}
-.contactbox{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; min-height:400px;}
+.contactbox{margin:0px; padding:0px; min-height:400px;}
 .contactbox h1{ margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:20px; font-weight: normal;}
 .contactbox p{ margin:0px; padding:10px 0 0 0; color:#797979; font-size:12px; font-weight: normal; line-height:20px;} 
-.cateinnpages{margin:0px auto; max-width:930px; padding:0px; color:#797979; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.cateinnpages{margin:0px auto; max-width:930px; padding:0px; color:#797979; font-size:12px;}
 .cateinnptitle{margin:0px; padding:10px 0 0 0; color:#726a5a; font-size:12px; font-weight: normal;}
-.proimgbox{padding:0px; margin: 0 auto; font-family:Georgia, "Times New Roman", Times, serif;}
+.proimgbox{padding:0px; margin: 0 auto;}
 .proimgbox li{margin:0 0 9px 9px; padding:0px; border:1px solid #D3CDC0; width:221px; height:146px; position:relative;}
 .protitlebox{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:0px; font-size:12px; text-transform:uppercase; text-align:right; width:185px; margin:0 0 0 1px; padding:7px 35px 0 0; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
 .protitlebox a{color:#5f5745;}
@@ -589,7 +589,7 @@ div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; ma
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:250px; background:#FFF;}
 
 .wrapper {max-width: 320px; margin:0 auto;}
-.headtopmenu{background:url(images/body_bg.gif) repeat; height:58px; width:100%; font-family:Arial, Helvetica, sans-serif;} 
+.headtopmenu{background:url(images/body_bg.gif) repeat; height:58px; width:100%; } 
 .topmenuL{margin:0px; padding:4px 0 0 0; color:#838485; font-size:13px; font-weight:bold; text-align:center; float:left; width:100%; max-width:480px;}
 .topmenuR{margin:0px; padding:7px 0 0 0; font-size:17.34px; text-align:center; float:left; width:100%; max-width:480px;}
 .topmenuR a{color:#000000;}
