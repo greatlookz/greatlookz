@@ -99,6 +99,18 @@ var store_greatlookz = function() {
 					return true;
 				}
 				return false;
+			},
+			
+			toggleCustomerService : function() {
+				var $footerbot = $(".footerbot");
+			
+				if($footerbot.hasClass("showCustomerService")){
+					$footerbot.removeClass("showCustomerService");
+				}
+				else {
+					$footerbot.addClass("showCustomerService");
+					$('html, body').animate({scrollTop:$(document).height()-$(".footer").height()}, 'slow');
+				}
 			}
 			
 			}, //Actions

@@ -431,6 +431,7 @@ CHECKOUT
 /*Middle Close*/
 
 /*Footer Start*/
+.showCustomerService.footerbot {display:block;}
 .footer{margin:10px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
 .footertop{margin:0px; padding:0px; max-width:930px; width:100%; text-align:center; float:left; display:none;}
 .footerbot{margin:0px; padding:10px 0 0 0; max-width:930px; width:100%; background:#fdfef8; float:left; min-height:165px;}
