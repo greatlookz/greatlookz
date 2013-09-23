@@ -25,6 +25,7 @@ p{margin-bottom:12px;}
 table{border-collapse: collapse; border-spacing:0;}
 td{vertical-align:top;}
 td.valignMiddle	{vertical-align: middle;}
+.clear {clear:both;}
 
 /* feel free to delete these or override in your own .css file */
 h1, h2, h3, h4, h5, h6	{padding:0; margin:0;}
@@ -405,7 +406,7 @@ CHECKOUT
 .quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; /*background:url(images/quick_serchbg.gif) no-repeat;*/ border:1px solid #67604e; width:50%; font-size:11px;}
 #searchButton {background: url(images/search.gif) no-repeat; height: 26px; width: 106px;}  
 
-.motherdaybox{margin:0px; padding:0px; max-width:930px; width:100%; float:left;}
+.motherdaybox{margin:0px; padding:0px; max-width:930px; width:100%;}
 .motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
 .singupbox{margin:0 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .signtitle{margin:6px 0 0 0; padding:0px; float:left;}
@@ -414,11 +415,10 @@ CHECKOUT
 .singupfro label{margin:5px 0 0 0; padding:2px 0 0 0; float:left; color:#716f6c; font-size:11px;}
 .singupfro input{margin:5px 0 0 0; padding:0 2px; float:right; width:53%; border:2px solid #d1d1ce; font-size:11px;} 
 .subsc{margin:6px 0 0 0; padding:0px; float:right;}
-.featurebg{margin:9px 0 0 0; padding:0 0 0 0; max-width:930px; width:100%; float:left;}
-.faeturedL{margin:0px; padding:0px; float:left;}
-.faeturedM{margin:0px; padding:6px 0 0 0; float:left; background:url(images/featurebg.gif) repeat-x; height:25px; text-align:center; font-size:16px; color:#797979; font-weight:bold; letter-spacing:23px; max-width:904px; width:100%;}
-.faeturedR{margin:0px; padding:0px; float:left;}
 
+.featuredBG{max-width:930px; border:2px solid #deddd9; background: #f1f0ea; padding: 2px; margin-top: 9px;}
+.featuredBox {background: #f4f2ec; border: 2px solid #eae8df;}
+.featuredBox h1 {color: #797979; font-size: 20px; text-align: center; text-transform:uppercase; letter-spacing: 20px;}
 .featurebox{margin:9px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
 .featureinn{margin:0 0 0 12px; padding:0px; float:left; position:relative;}
 .featureinn img{border:1px solid #d3cdc0;} 
@@ -521,7 +521,7 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0; font-family:
 .fromtext {display: none;}
 .quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; border:1px solid #67604e; width:39%; font-size:11px;}
 
-.featurebg img{width:100%; height:31px;}
+.featuredBox h1{letter-spacing: 13px;}
 
 .featurebox{margin:0 auto; max-width:480px; float:none;}
 .featureinn{margin:10px 0 0 12px; float:left;}
@@ -547,7 +547,6 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .nav ul li:first-child {padding-left: 12px}
 .scarvesPadding {padding-left: 4px;}
 
-.quickserchM{margin:0 auto; width:81%;}
 .quickenter{border: 1px solid #67604E; font-size: 11px; margin: 0 0 0 10px; padding: 3px 5px;  width: 37%;}
 
 .homepageTemplate{max-width: 480px; margin: 0 auto;}
@@ -560,7 +559,8 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .singupbox {max-width:none; width:178px; margin-top:10px; margin-left:12px; min-height:135px;}
 .signtitle img {width:100%;}
 
-.featurebg img{width:100%; height:31px;}
+
+.featuredBox h1{letter-spacing: 6px;}
 
 .featurebox{margin:0 auto; width:90%; float:none;}
 .featureinn{margin:10px 0 0 12px; float:left; width:47%;}
@@ -615,8 +615,7 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .singupbox {width:223px; margin-top:10px; margin-left: 0px; float:none;}
 .signtitle img {width:100%;}
 
-.featurebg {float:none;}
-.featurebg img{width:100%; height:31px;}
+.featuredBox h1{letter-spacing: 1px; font-size: 17px;}
 
 .featurebox{margin:0 auto; width:223px; float:none;}
 .featureinn{margin:10px 0px 0px; float:none;}
