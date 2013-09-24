@@ -425,8 +425,8 @@ CHECKOUT
 .featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:right; width:186px; margin:0 0 0 1px; padding:7px 35px 0 0; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
 .featitbot a{color:#5f5745;}
 .featitbot a:hover{color:#000;}
-.fromtext{margin:18px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a;}
-.fromtext p{margin:0 auto; padding:0px; max-width:728px; width:100%; line-height:22px;}
+.homepageTextBot{margin:18px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a;}
+.homepageTextBot p{margin:0 auto; padding:0px; max-width:728px; width:100%; line-height:22px;}
 .spacehide{margin:0px; padding:0px;}
 /*Middle Close*/
 
@@ -493,7 +493,7 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 
 /*Nav Css*/
 .ddMenu {display: none;}
-.bobbytop{margin:18px 0 10px 0; padding:0px; width:98%; text-align:center; font-size:15px; color:#726a5a; line-height:22px; display:none;} 
+.homepageTextTop{margin:18px 0 10px 0; padding:0px; width:98%; text-align:center; font-size:15px; color:#726a5a; line-height:22px; display:none;} 
 /*Nav Css*/
 
 .marginBottom h5{margin-top:10px;}
@@ -517,8 +517,8 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 .motherdayimg {margin:10px 0 0 12px;}
 .singupbox {margin-top:10px; margin-left:12px;}
 .signtitle img {width:100%;}
-.bobbytop{display:block;}
-.fromtext {display: none;}
+.homepageTextTop{display:block;}
+.homepageTextBot {display: none;}
 .quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; border:1px solid #67604e; width:39%; font-size:11px;}
 
 .featuredBox h1{letter-spacing: 13px;}
@@ -567,8 +567,8 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .featureinn img{width:100%;}
 .featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:96%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
 
-.bobbytop{display:block;}
-.fromtext{display:none;}
+.homepageTextTop{display:block;}
+.homepageTextBot{display:none;}
 
 /*Footer*/
 .footertop{margin:0px; padding:0px; width:100%; text-align:center; float:left; display:block;}
@@ -619,8 +619,8 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .featureinn{margin:10px 0px 0px; float:none;}
 .featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:95%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
 
-.fromtext{display:none;}
-.bobbytop{display:block;}
+.homepageTextBot{display:none;}
+.homepageTextTop{display:block;}
 
 /*Footer*/
 .footertop{margin:0px; padding:0px; width:100%; text-align:center; float:left; display:block;}

@@ -326,7 +326,8 @@ the homepageTemplate template is loaded into mainContentArea by default when the
 			</form>
         </div>
         
-        <div class="bobbytop">
+		<!-- If you edit the class/cont of homepageTextTop, make sure you also edit the class/content of homepageTextBot --> 
+        <div class="homepageTextTop">
           <p>
           	From bobby socks to wedding gloves, Greatlookz has the period accessory for you. We will help you transform your outfit from the ordinary to the remarkable. Red Hat Ladies will find the most complete collection of redhats, feather boas, red hat jewelry and unique accessories to make their outfits fun and memorable.
           </p>
@@ -408,7 +409,8 @@ the homepageTemplate template is loaded into mainContentArea by default when the
           </div>
         </div>
         
-        <div class="fromtext">
+		<!-- If you edit the class/cont of homepageTextBot, make sure you also edit the class/content of homepageTextTop -->
+        <div class="homepageTextBot">
           <p>
           From bobby socks to wedding gloves, Greatlookz has the period accessory for you. We will help you transform your outfit from the ordinary to the remarkable. Red Hat Ladies will find the most complete collection of red hats, feather boas, red hat jewelry and unique accessories to make their outfits fun and memorable.
           </p>
@@ -435,7 +437,6 @@ don't modify the 'data-templateid' unless you are changing template names and up
       </ul>
       <ul data-bind="var: category(@subcategoryDetail); format: categoryList; extension: store_navcats; loadsTemplate: categoryListTemplate; detail:max;" class='listStyleNone fluidList clearfix noPadOrMargin categoryList proimgbox'>
       </ul>
-      <br clear="all" />
       <!-- outputs a list of subcategories -->
       <ul data-bind="var: category(@products); editor: finder; format: infiniteProductList; extension:prodlist_infinite; loadsTemplate: productListTemplate; withReviews:1;" class='listStyleNone fluidList clearfix noPadOrMargin productList catedoryspacing'>
       </ul>
