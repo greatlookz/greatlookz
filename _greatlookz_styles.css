@@ -532,6 +532,8 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 .breadcrumb {max-width: 480px;}
 .cateinnpages {max-width:480px;}
 .proimgbox {max-width: 465px;}
+
+.quickViewSection {display:none;}
 }
 
 /* Tablet portrait view */
@@ -579,6 +581,8 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .breadcrumb {max-width: 480px;}
 .cateinnpages {max-width:480px;}
 .proimgbox {max-width: 465px;}
+
+.quickViewSection {display:none;}
 }
 
 /* Mobile view */
@@ -628,8 +632,10 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .hidesec{display:none;}
 /*Footer*/
 
-.cateinnpages  {max-width: 320px;}
+.cateinnpages  {max-width: 240px;}
 .proimgbox {max-width: 240px;}
+
+.quickViewSection {display:none;}
 }
 
 /***** Responsiv Css Close *****/
