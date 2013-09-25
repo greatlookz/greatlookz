@@ -333,34 +333,44 @@ the homepageTemplate template is loaded into mainContentArea by default when the
           </p>
         </div>
         
-        <div class="motherdaybox">
-            <div class="motherdayimg spacehide">
-              <a href="#."><img src="images/daypic1.jpg" alt="" /></a>
-            </div>
-          	<div class="motherdayimg">
-            	<a href="#."><img src="images/daypic2.jpg" alt="" /></a>
-          	</div>
-          	<div class="motherdayimg spacingc">
-           	 <a href="#."><img src="images/daypic3.jpg" alt="" /></a>
-          	</div>
-          	<div class="singupbox">
+        <div class="homepageCategories">
+			<div class="featuredCategory spacehide">
+				<a href="#" onClick="return showContent('category',{navcat: '.'});">
+					<img src="images/mothersday.jpg" />
+				</a>
+				<div class="featuredCategoryName">
+					<a href="#" onClick="return showContent('category',{navcat: '.'});">MOTHER'S DAY</a>
+				</div>
+			</div>
+			<div class="featuredCategory">
+				<a href="#" onClick="return showContent('category',{navcat: '.strawhatsberetsmore'});">
+					<img src="images/beautifulhats.jpg" />
+				</a>
+				<div class="featuredCategoryName">
+					<a href="#" onClick="return showContent('category',{navcat: '.strawhatsberetsmore'});">BEAUTIFUL HATS</a>
+				</div>
+			</div>
+			<div class="featuredCategory">
+				<a href="#" onClick="return showContent('category',{navcat: '.accessories.aaagirls_dresses.flower_girl_dresses'});">
+					<img src="images/partydresses.jpg" />
+				</a>
+				<div class="featuredCategoryName">
+					<a href="#" onClick="return showContent('category',{navcat: '.accessories.aaagirls_dresses.flower_girl_dresses'});">PARTY DRESSES & TUXES</a>
+				</div>
+			</div>
+          	<div class="signUpBox">
                 <div class="signtitle">
                 	<img src="images/sign_uptitle.gif" />
                 </div>
             	<p>
                 	Enter your email address and receive coupons and special pricing updates by email
                 </p>
-                <div class="singupfro" style="display:none;">
-                  <form action="" method="get">
-                    <input />
-                  </form>
-                </div>
-                <div class="singupfro">
+                <div class="signUpForm">
                   <form action="" name='subscribeFrm' onSubmit="app.ext.store_crm.u.handleSubscribe($(this)); return false">
                     <label>Email</label>
-                    <input type="email" class="fullinpbox" required='required' name='login' value='' placeholder='email address' />
+                    <input type="email" required='required' name='login' value='' placeholder='email address' />
                     <label>Full Name</label>
-                    <input type="text" class="fullinpbox" required='required' name='fullname' placeholder='full name' /><br clear="all">
+                    <input type="text" required='required' name='fullname' placeholder='full name' /><br clear="all">
                     <input type="image" value="" name="" src="images/subscribe.gif"  style="border:0px; margin:5px 0 0 0; width:90px;"/>
                   </form>
                 </div>
@@ -374,37 +384,37 @@ the homepageTemplate template is loaded into mainContentArea by default when the
 			</div>
          </div>
         
-        <div class="featurebox">
-          <div class="featureinn spacehide">
-          	<a href="#" onClick="return showContent('category',{navcat: '.strawhatsberetsmore.hair_accessories/'});">
-            	<img src="images/feapic1.jpg" />
+        <div class="homepageCategories">
+          <div class="featuredCategory spacehide">
+          	<a href="#" onClick="return showContent('category',{navcat: '.aholiday2.crazy_fun_hats'});">
+            	<img src="images/hairpins.jpg" />
             </a>
-            <div class="featitbot">
-            	<a href="#" onClick="return showContent('category',{navcat: '.strawhatsberetsmore.hair_accessories/'});">FLOWER PINS</a>
+            <div class="featuredCategoryName">
+            	<a href="#" onClick="return showContent('category',{navcat: '.aholiday2.crazy_fun_hats'});">FLOWER PINS</a>
             </div>
           </div>
-          <div class="featureinn">
+          <div class="featuredCategory">
           	<a href="#" onClick="return showContent('category',{navcat: '.fancylinens.handkerchief'});">
-            	<img src="images/feapic2.jpg" />
+            	<img src="images/linens.jpg" />
             </a>
-            <div class="featitbot">
+            <div class="featuredCategoryName">
             	<a href="#" onClick="return showContent('category',{navcat: '.fancylinens.handkerchief'});">LINENS</a>
             </div>
           </div>
-          <div class="featureinn innspace">
+          <div class="featuredCategory innspace">
           	<a href="#" onClick="return showContent('category',{navcat: '.accessories.shapewear'});">
-            	<img src="images/feapic3.jpg" />
+            	<img src="images/shapewear.jpg" />
             </a>
-            <div class="featitbot">
+            <div class="featuredCategoryName">
             	<a href="#" onClick="return showContent('category',{navcat: '.accessories.shapewear'});">SHAPEWEAR</a>
             </div>
           </div>
-          <div class="featureinn">
-          	<a href="#" onClick="return showContent('category',{navcat: 'accessories.aaagirls_dresses.outerwear'});">
-            	<img src="images/feapic4.jpg" />
+          <div class="featuredCategory">
+          	<a href="#" onClick="return showContent('category',{navcat: '.accessories.aaagirls_dresses.outerwear'});">
+            	<img src="images/girlsouterwear.jpg" />
             </a>
-            <div class="featitbot">
-            	<a href="#" onClick="return showContent('category',{navcat: 'accessories.aaagirls_dresses.outerwear'});">GIRLS OUTERWEAR</a>
+            <div class="featuredCategoryName">
+            	<a href="#" onClick="return showContent('category',{navcat: '.accessories.aaagirls_dresses.outerwear'});">GIRLS OUTERWEAR</a>
             </div>
           </div>
         </div>

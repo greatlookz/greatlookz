@@ -404,25 +404,24 @@ CHECKOUT
 .quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; /*background:url(images/quick_serchbg.gif) no-repeat;*/ border:1px solid #67604e; width:50%; font-size:11px;}
 #searchButton {background: url(images/search.gif) no-repeat; height: 26px; width: 106px;}  
 
-.motherdaybox{margin:0px; padding:0px; max-width:930px; width:100%;}
-.motherdayimg{margin:0 0 0 10px; padding:0px; float:left;} 
-.singupbox{margin:0 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
+.homepageCategories{margin:0px; padding:0px; max-width:930px; width:100%;}
+.signUpBox{margin:0 0 0 10px; padding:0 12px; max-width:199px; width:100%; border:1px solid #d4cec2; background:#FFFFFF; float:left; min-height:146px;} 
 .signtitle{margin:6px 0 0 0; padding:0px; float:left;}
-.singupbox p{margin:0px; padding:2px 0 0 0; font-size:10px; letter-spacing: -1px; float:left; width:100%; line-height:12px;}
-.singupfro{margin:0 0 0 0; padding:0px; width:100%; float:left;}
-.singupfro label{margin:5px 0 0 0; padding:2px 0 0 0; float:left; color:#716f6c; font-size:11px;}
-.singupfro input{margin:5px 0 0 0; padding:0 2px; float:right; width:53%; border:2px solid #d1d1ce; font-size:11px;} 
+.signUpBox p{margin:0px; padding:2px 0 0 0; font-size:10px; letter-spacing: -1px; float:left; width:100%; line-height:12px;}
+.signUpForm{margin:0 0 0 0; padding:0px; width:100%; float:left;}
+.signUpForm label{margin:5px 0 0 0; padding:2px 0 0 0; float:left; color:#716f6c; font-size:11px;}
+.signUpForm input{margin:5px 0 0 0; padding:0 2px; float:right; width:53%; border:2px solid #d1d1ce; font-size:11px;} 
 .subsc{margin:6px 0 0 0; padding:0px; float:right;}
 
 .featuredBG{max-width:930px; border:2px solid #deddd9; background: #f1f0ea; padding: 2px; margin-top: 9px;}
 .featuredBox {background: #f4f2ec; border: 2px solid #eae8df;}
 .featuredBox h1 {color: #797979; font-size: 20px; text-align: center; text-transform:uppercase; letter-spacing: 20px;}
-.featurebox{margin:9px 0 0 0; padding:0px; max-width:930px; width:100%; float:left;}
-.featureinn{margin:0 0 0 12px; padding:0px; float:left; position:relative;}
-.featureinn img{border:1px solid #d3cdc0;} 
-.featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:right; width:186px; margin:0 0 0 1px; padding:7px 35px 0 0; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
-.featitbot a{color:#5f5745;}
-.featitbot a:hover{color:#000;}
+.homepageCategories{margin:9px 0 0 0; padding:0px; max-width:930px; width:100%;}
+.featuredCategory{margin:0 0 0 12px; padding:0px; float:left; position:relative;}
+.featuredCategory img{border:1px solid #d3cdc0;} 
+.featuredCategoryName{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:right; width:186px; margin:0 0 0 1px; padding:7px 35px 0 0; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
+.featuredCategoryName a{color:#5f5745;}
+.featuredCategoryName a:hover{color:#000;}
 .homepageTextBot{margin:18px 0 13px 0; padding:0px; max-width:930px; width:100%; float:left; text-align:center; font-size:15px; color:#726a5a;}
 .homepageTextBot p{margin:0 auto; padding:0px; max-width:728px; width:100%; line-height:22px;}
 .spacehide{margin:0px; padding:0px;}
@@ -444,7 +443,6 @@ CHECKOUT
 .copyright a{color:#4E4D49; text-decoration:underline;}
 .copyright a:hover{color:#000000; text-decoration:none;}
 .fristuspace{margin:0 0 0 40px;}
-.motherdayimg img {border:1px solid #c9c2b3;}
 /*Footer Close*/
 
 /*Loader Page Css Start*/
@@ -511,19 +509,16 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 
 .homepageTemplate{max-width: 640px; margin: 0 auto;}
 .banner img{margin:5px 0 0 0; padding:0px; width:100%; /*height:291px;*/} 
-.motherdaybox {margin:0 auto; max-width:480px; float:none;}
-.motherdayimg {margin:10px 0 0 12px;}
-.singupbox {margin-top:10px; margin-left:12px;}
+.featuredBox h1{letter-spacing: 13px;}
+
+.homepageCategories {margin:0 auto; max-width:480px; float:none;}
+.signUpBox {margin-top:10px; margin-left:12px;}
 .signtitle img {width:100%;}
 .homepageTextTop{display:block;}
 .homepageTextBot {display: none;}
 .quickenter{margin:0 0 0 10px; padding:3px 5px 3px 5px; border:1px solid #67604e; width:39%; font-size:11px;}
 
-.featuredBox h1{letter-spacing: 13px;}
-
-.featurebox{margin:0 auto; max-width:480px; float:none;}
-.featureinn{margin:10px 0 0 12px; float:left;}
-.featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:95%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
+.featuredCategory{margin:10px 0 0 12px; float:left;}
 
 .footertop {display: block;}
 .footerbot {display: none;}
@@ -551,21 +546,14 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .homepageTemplate{max-width: 480px; margin: 0 auto;}
 .banner img{margin:5px 0 0 0; padding:0px; width:100%; /*height:291px;*/} 
-.motherdaybox {margin:0 auto; width:90%; float:none;}
-.motherdayimg {margin:0 0 0 12px; width:47%;}
-.motherdayimg img {width:100%;}
-.spacingc{margin-top:10px;}
-
-.singupbox {max-width:none; width:178px; margin-top:10px; margin-left:12px; min-height:135px;}
-.signtitle img {width:100%;}
-
 
 .featuredBox h1{letter-spacing: 6px;}
-
-.featurebox{margin:0 auto; width:90%; float:none;}
-.featureinn{margin:10px 0 0 12px; float:left; width:47%;}
-.featureinn img{width:100%;}
-.featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:96%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
+.homepageCategories {margin:0 auto; max-width:455px; float:none;}
+.featuredCategory{margin:10px 0 0 12px; float:left; width:47%;}
+.featuredCategory img{width:100%;}
+.featuredCategoryName{width:168px;}
+.signUpBox {max-width:none; width:191px; margin-top:10px; margin-left:12px; min-height:142px;}
+.signtitle img {width:100%;}
 
 .homepageTextTop{display:block;}
 .homepageTextBot{display:none;}
@@ -610,16 +598,14 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .homepageTemplate{max-width: 300px; margin: 0 auto;}
 .banner img{margin:5px 0 0 0; padding:0px; width:100%; float:left; /*height:291px;*/} 
-.motherdaybox {margin:0 auto; float:none; width: 223px;}
-.motherdayimg {margin:10px 0 0; float:none;}
-.singupbox {width:223px; margin-top:10px; margin-left: 0px; float:none;}
+.homepageCategories {margin:0 auto; float:none; width: 223px;}
+.signUpBox {width:223px; margin-top:10px; margin-left: 0px; float:none;}
 .signtitle img {width:100%;}
 
 .featuredBox h1{letter-spacing: 1px; font-size: 17px;}
 
-.featurebox{margin:0 auto; width:223px; float:none;}
-.featureinn{margin:10px 0px 0px; float:none;}
-.featitbot{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:95%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
+.featuredCategory{margin:10px 0px 0px; float:none;}
+.featuredCategoryName{background:#F4F3F1; height:19px; opacity:0.85; position:absolute; bottom:1px; font-size:12px; text-transform:uppercase; text-align:left; width:95%; margin:0 0 0 1px; padding:7px 0 0 10px; background-image:url(images/feaarrrow.png); background-repeat:no-repeat; background-position:right;}
 
 .homepageTextBot{display:none;}
 .homepageTextTop{display:block;}
