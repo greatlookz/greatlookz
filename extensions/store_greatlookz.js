@@ -102,14 +102,14 @@ var store_greatlookz = function() {
 			},
 			
 			toggleCustomerService : function() {
-				var $footerbot = $(".footerbot");
+				var $footerBot = $(".footerBot");
 			
-				if($footerbot.hasClass("showCustomerService")){
-					$footerbot.removeClass("showCustomerService");
+				if($footerBot.hasClass("showCustomerService")){
+					$footerBot.removeClass("showCustomerService");
 				}
 				else {
-					$footerbot.addClass("showCustomerService");
-					$('html, body').animate({scrollTop:$(document).height()-$(".footer").height()}, 'slow');
+					$footerBot.addClass("showCustomerService");
+					$('html, body').animate({scrollTop:$(document).height()-$(".footer").height()}, 750);
 				}
 			}
 			
