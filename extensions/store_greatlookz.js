@@ -41,6 +41,14 @@ var store_greatlookz = function() {
 				});
 				//if there is any functionality required for this extension to load, put it here. such as a check for async google, the FB object, etc. return false if dependencies are not present. don't check for other extensions.
 				r = true;
+			
+				app.rq.push(['templateFunction','homepageTemplate','onCompletes',function() {
+					$('#search').hide();
+				}]);	
+				
+				app.rq.push(['templateFunction','homepageTemplate','onDeparts',function() {
+					$('#search').show();
+				}]);
 
 				return r;
 				},
