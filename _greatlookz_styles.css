@@ -176,8 +176,8 @@ PRODUCT DETAIL PAGE (productTemplate)
 .customerReviewBox {color: #736a59; border:1px solid #cccccc; background: #f1e4c2; padding: 5px;}
 .customerReviewBox a {color: #ca5170;}
 
-.CRMButtonMenu{margin:0; padding:0; margin-bottom:12px; padding: 5px; border-top: 2px solid #726b5b; border-bottom: 2px solid #726b5b;}
-.CRMButtonMenu a {color: #736a59; padding: 0px 10px; text-transform: uppercase; padding: 0px 50px;}
+.CRMButtonMenu{margin:0; padding:0; margin-bottom:12px; padding: 5px; border-top: 2px solid #726b5b; border-bottom: 2px solid #726b5b; width:350px;}
+.CRMButtonMenu a {color: #736a59; text-transform: uppercase; padding: 0px 35px;}
 /* primary image and thumbnails */
 .imageContainer	{width:10%; padding:20px;}
 .prodViewerContainer .prodThumbs div{float:left; margin:10px 6px 0 0;}
