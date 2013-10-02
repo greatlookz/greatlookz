@@ -621,7 +621,7 @@ this will likely become more flexible in the future. ###
       <ul class='noPadOrMargin fluidList breadcrumb' data-bind='var: session(session.recentCategories.0); format:breadcrumb; extension:store_navcats; loadsTemplate: breadcrumbTemplate;'>
       </ul>
       
-      <table class='prodViewerContainer'>
+    <table class='prodViewerContainer'>
         <tr>
           <td class='imageContainer'>
           	<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).attr("data-pid")});' class='pointer clearfix' data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;'>
@@ -723,46 +723,21 @@ this will likely become more flexible in the future. ###
            </td>
         </tr>
         <tr>
-          <td colspan='2' class="tabbedProductContentTD">
-			<div class="customerReviewSection">
-				<h3 class="customerReviewSectionTitle">Customer Reviews</h3>
-				<div class='clearfix customerReviewBox'>
-					<div data-bind='var: reviews(reviews.@reviews); format:hideIfSet;'>
-						<p class="alignCenter noPadOrMargin">Be the first to write a review on this item. <a class="pointer" onClick='app.ext.store_crm.u.showReviewFrmInModal({"pid":$(this).attr("data-pid"),"templateID":"reviewFrmTemplate"});' data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;'> Click here! </a></p>
-					</div>
-					<div class="displayNone" data-bind='var: reviews(reviews.@reviews); format:showIfSet;'>
-						<ul class='listStyleNone clearfix productReviewsList noPadOrMargin' data-bind="var: reviews(reviews.@reviews); format:processList; loadsTemplate:productReviewsTemplateDetail;"></ul>
+			<td colspan='2' class="tabbedProductContentTD">
+				<div class="customerReviewSection">
+					<h3 class="customerReviewSectionTitle">Customer Reviews</h3>
+					<div class='clearfix customerReviewBox'>
+						<div data-bind='var: reviews(reviews.@reviews); format:hideIfSet;'>
+							<p class="alignCenter noPadOrMargin">Be the first to write a review on this item. <a class="pointer" onClick='app.ext.store_crm.u.showReviewFrmInModal({"pid":$(this).attr("data-pid"),"templateID":"reviewFrmTemplate"});' data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;'> Click here! </a></p>
+						</div>
+						<div class="displayNone" data-bind='var: reviews(reviews.@reviews); format:showIfSet;'>
+							<ul class='listStyleNone clearfix productReviewsList noPadOrMargin' data-bind="var: reviews(reviews.@reviews); format:processList; loadsTemplate:productReviewsTemplateDetail;"></ul>
+						</div>
 					</div>
 				</div>
-			</div>
-		
-<!-- the tabs are built in an onComplete. ID's are added based on sku AND index, so the index (order) of the tabs MUST match the order of the tabContent divs
-or the tab clicked won't open the right content.
-It's done this way because ID's hard coded into template are bad mojo (templates are recycled) and because using data-binds to add id's caused some serious issues -->
-            <div class='prodTabs tabbedProductContent displayNone'>
-              <ul class='tabs'>
-                <li class='prodDetailTab displayNone' data-bind='var: product(zoovy:prod_detail); format:showIfSet;'><a href='#prodSpecs'>Specs</a></li>
-                <li class='prodFeaturesTab displayNone' data-bind='var: product(zoovy:prod_features); format:showIfSet;'><a href='#prodFeatures'>Features</a></li>
-                <li class='prodVideoTab displayNone' data-bind='var: product(youtube:videoid); format:showIfSet;'><a href='#prodVideo'>Video</a></li>
-                <li class='prodAccessoriesTab displayNone' data-bind='var: product(zoovy:accessory_products); format:showIfSet;'><a href='#prodAccessories'>Accessories</a></li>
-              </ul>
-              <div class='tabContent' data-anytab-content='prodSpecs'>
-                <div data-bind='var: product(zoovy:prod_detail); format:wiki; wikiFormats:myRIA;'></div>
-              </div>
-              <div class='tabContent' data-anytab-content='prodFeatures'>
-                <div data-bind='var: product(zoovy:prod_features); format:wiki; wikiFormats:myRIA;'></div>
-              </div>
-              <div class='tabContent' data-anytab-content='prodVideo'>
-                <div data-bind='var: product(youtube:videoid); format:youtubeVideo;'></div>
-              </div>
-              <div class='tabContent' data-anytab-content='prodAccessories'>
-                <ul class='listStyleNone fluidList clearfix noPadOrMargin lineItemProdlist' data-bind="var: product(zoovy:accessory_products); format:productList; extension:store_prodlist;loadsTemplate:productListTemplateATC;hide_pagination:true;hide_summary:true; withReviews:1; withInventory:1; withVariations:1;">
-                </ul>
-              </div>
-            </div>
-            </td>
+			</td>
         </tr>
-      </table>
+    </table>
 	
 	  
       <div class='prodlistRelatedContainer'>
