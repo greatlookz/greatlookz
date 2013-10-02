@@ -172,8 +172,9 @@ PRODUCT DETAIL PAGE (productTemplate)
 .prodBigImage{border: 1px solid #DDDDDD; max-width: 100%;}
 .prosmallpic img{border:1px solid #DDDDDD;}
 
-.customerReviewSection {padding: 20px;}
-.customerReviewBox {color: #736a59; border:1px solid #cccccc; background: #f1e4c2; padding: 5px;}
+.customerReviewSection {padding: 20px; color: #736a5b;}
+.customerReviewSectionTitle {margin-bottom: 5px; font-size: 17px; font-weight: 100;}
+.customerReviewBox {border:1px solid #cccccc; background: #f1e4c2; padding: 8px 20px;}
 .customerReviewBox a {color: #ca5170;}
 
 .CRMButtonMenu{margin:0; padding:0; margin-bottom:12px; padding: 5px; border-top: 2px solid #726b5b; border-bottom: 2px solid #726b5b; width:350px;}
@@ -219,7 +220,7 @@ so the displayNone class is used, then a .grpType_PARENT class is added if the i
 
 /****** REVIEW LIST - on product detail page, used for product reviews. ******/
 #prodViewerReviews	{margin:0; padding:0;} /* parent ul containing all reviews, each review as an li */
-.reviewLineItem {margin:0 0 12px 0; padding:0 0 12px 0; display:block; clear:both;} /* on the li of an individual review */
+.reviewLineItem {display:block; clear:both;} /* on the li of an individual review */
 .prodReviewInfo	{float:left; display:block; width:165px; list-style:none; margin:0 12px 0px 0; font-weight:normal; padding:0;} /* on the ul of the list containing the name, location, date, etc */
 .prodReviewInfo li{display:block; clear:both;} /* applies to li for location, name, date, etc */
 .prodReviewTemplate li p{font-weight:normal; margin:0; padding:0;}

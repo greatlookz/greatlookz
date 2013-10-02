@@ -725,10 +725,14 @@ this will likely become more flexible in the future. ###
         <tr>
           <td colspan='2' class="tabbedProductContentTD">
 			<div class="customerReviewSection">
-				<h3 class="marginBottom">Customer Reviews</h3>
+				<h3 class="customerReviewSectionTitle">Customer Reviews</h3>
 				<div class='clearfix customerReviewBox'>
-					<p class="alignCenter">Be the first to write a review on this item. <a class="pointer" onClick='app.ext.store_crm.u.showReviewFrmInModal({"pid":$(this).attr("data-pid"),"templateID":"reviewFrmTemplate"});' data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;'> Click here! </a></p>
-				<ul class='listStyleNone clearfix productReviewsList' data-bind="var: reviews(reviews.@reviews); format:processList; loadsTemplate:productReviewsTemplateDetail;"></ul>
+					<div data-bind='var: reviews(reviews.@reviews); format:hideIfSet;'>
+						<p class="alignCenter noPadOrMargin">Be the first to write a review on this item. <a class="pointer" onClick='app.ext.store_crm.u.showReviewFrmInModal({"pid":$(this).attr("data-pid"),"templateID":"reviewFrmTemplate"});' data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;'> Click here! </a></p>
+					</div>
+					<div class="displayNone" data-bind='var: reviews(reviews.@reviews); format:showIfSet;'>
+						<ul class='listStyleNone clearfix productReviewsList noPadOrMargin' data-bind="var: reviews(reviews.@reviews); format:processList; loadsTemplate:productReviewsTemplateDetail;"></ul>
+					</div>
 				</div>
 			</div>
 		
