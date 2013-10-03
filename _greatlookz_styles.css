@@ -179,11 +179,13 @@ PRODUCT DETAIL PAGE (productTemplate)
 
 .CRMButtonMenu{margin:0; padding:0; margin-bottom:12px; padding: 5px; border-top: 2px solid #726b5b; border-bottom: 2px solid #726b5b; width:350px;}
 .CRMButtonMenu a {color: #736a59; text-transform: uppercase; padding: 0px 35px;}
+
 /* primary image and thumbnails */
-.imageContainer	{width:10%; padding:20px;}
+.imageContainer	{width:232px; float:left; padding:20px;}
 .prodViewerContainer .prodThumbs div{float:left; margin:10px 6px 0 0;}
-.prodSummaryContainer{width:90%; color: #726b59; padding: 20px;}
-.prodSummaryContainer h1{margin:0px; padding:0px; font-size:20px; color:#726A5A; font-weight:normal;}
+.prodSummaryContainer{width:610px; float:right; color: #726b59; padding: 20px;}
+.prodName{margin:0px; padding:0px; font-size:20px; color:#726A5A; font-weight:normal;}
+.prodNameTop {display:none; padding: 10px 20px 0px;}
 .tabbedProductContent .prodReviewsTab{display:block;} /* reviews tab always shows up */
 
 /*
@@ -520,7 +522,7 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 .displayNoneLandscape {display: none;}
 
 .topmenu{margin:0 auto; padding:0px; width:98%;}
-.wrapper{margin:0 auto; padding:0px; width:98%;}
+.wrapper{margin:0 auto; padding:0px; max-width: 610px;}
 .nav {max-width: 610px; padding: 0px 0px 70px 0px;}
 .nav ul li{margin:0px; padding:10px 0 0 66px; list-style-type:none; float:left;}
 
@@ -552,6 +554,10 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 .cateinnpages {max-width:480px;}
 .proimgbox {max-width: 465px;}
 
+.prodSummaryContainer{width: 298px;}
+.CRMButtonMenu {width: 285px;}
+.CRMButtonMenu a {padding: 0px 20px;}
+
 .quickViewSection {display:none;}
 }
 
@@ -563,7 +569,7 @@ div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; ma
 div#appPreView table div#loader > div.alignCenter > progress{border-color: #352820 #352820 #c7baaa #352820; border-style: solid; border-width: 2px; height: 27px; width:380px; background:#FFF;}
 
 .topmenu{margin:0 auto; padding:0px; width:98%;}
-.wrapper{margin:0 auto; padding:0px; width:98%;}
+.wrapper{margin:0 auto; padding:0px; max-width: 470px;}
 .nav {max-width: 480px; padding: 0px 0px 70px 0px;}
 .nav ul li:first-child {padding-left: 12px}
 .scarvesPadding {padding-left: 4px;}
@@ -600,6 +606,15 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .breadcrumb {max-width: 480px;}
 .cateinnpages {max-width:480px;}
 .proimgbox {max-width: 465px;}
+
+.prodNameTop {display:block;}
+.imageContainer {width:430px;}
+.prodPageMainImage {float: left;}
+.prodThumbs {float: right; width: 175px;}
+.prodViewerContainer .prodThumbs div {margin: 0px 0px 8px 6px;}
+.prodSummaryContainer{width: 430px;}
+.CRMButtonMenu {width: 150px; text-align: center;}
+.CRMButtonMenu a {padding: 0px; line-height: 22px;}
 
 .quickViewSection {display:none;}
 }
@@ -656,6 +671,12 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .cateinnpages  {max-width: 240px;}
 .proimgbox {max-width: 240px;}
+
+.prodNameTop {display:block;}
+.imageContainer {padding: 10px 44px;}
+.prodSummaryContainer{width: 280px;}
+.CRMButtonMenu {width: 150px; text-align: center;}
+.CRMButtonMenu a {padding: 0px; line-height: 22px;}
 
 .quickViewSection {display:none;}
 }
