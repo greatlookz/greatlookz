@@ -681,13 +681,11 @@ this will likely become more flexible in the future. ###
 				  <h5 class='pid' data-bind='var: product(pid); format:text; pretext: Sku: ;'></h5>
 				</hgroup>
 				
-				<div data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
+				<div class="displayNoneMobile" data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
 				
 				<div class='priceContainer marginBottom'>
 				  <h4 class='basePrice' data-bind='var: product(zoovy:base_price); format:money; currencySign: $;  hideZero:true;'></h4>
 				</div>
-				
-				<div class="socialLinks"></div>
 				
 				<table class='marginBottom fullWidth gridTable' data-app-role='childrenSiblingsContainer'>
 				  <tbody data-bind="var: product(zoovy:grp_children); format:productList; extension:store_prodlist; loadsTemplate:productListTemplateChildren;hide_summary:true; withInventory:1; withVariations:1;">
@@ -704,10 +702,14 @@ this will likely become more flexible in the future. ###
 				  </fieldset>
 				  <input type='submit' value='Add to Cart' class='ui-button ui-button-text ui-corner-all ui-state-default addToCartButton displayNone' data-bind='var: product(pid); format:addToCartButton; extension:store_product;'  />
 				</form>
-				
+
 				<div data-bind='var:product(zoovy:prod_cpsiawarning); format:cpsiaWarning; extension:myRIA;'></div>
 				
 				<div data-bind='var:product(zoovy:qty_price);format:quantityDiscounts; extension:store_product; pretext:Quantity Discounts:; className:marginBottom;'></div>
+				
+				<div class="displayNone displayNoneLandscape displayNonePortrait displayMobile" data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
+
+				<div class="socialLinks"></div>
 				
 				<section class='marginBottom'>
 					<span data-bind='var: reviews(reviews.average); format:addClass; className:review_;' class='reviewSprite'></span> <span data-bind='var: reviews(reviews.total); format:text;posttext: from ;posttext: reviews; className:numReviews;'></span> 
