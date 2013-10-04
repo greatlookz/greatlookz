@@ -180,13 +180,14 @@ PRODUCT DETAIL PAGE (productTemplate)
 .CRMButtonMenu{margin:0; padding:0; margin-bottom:12px; padding: 5px; border-top: 2px solid #726b5b; border-bottom: 2px solid #726b5b; width:350px;}
 .CRMButtonMenu a {color: #736a59; text-transform: uppercase; padding: 0px 35px;}
 
-.additionalImageSection {background: red; color: white; position: relative;}
-.heightLimited {	height: 70px;}
-.moreImages{background: white; color: black; border: 1px solid black; width: 50px; height: 20px; position: absolute; bottom: -10px; left: 50%; margin-left: -25px;}
-
+.additionalImageSection {position: relative;}
+.additionalImageInnerSection{overflow:hidden; height: 100%;}
+.heightLimited {	height: 63px;}
+.additionalImageSection .moreImages {background: url(images/uparrow.jpg); border: 1px solid #000000; border-radius: 7px; width: 15px; height: 15px; position: absolute; bottom: -20px; left: 45%;}
+.additionalImageSection.heightLimited .moreImages {background: url(images/downarrow.jpg);}
 /* primary image and thumbnails */
 .imageContainer	{width:232px; float:left; padding:20px;}
-.prodViewerContainer .prodThumbs div{float:left; margin:10px 6px 0 0;}
+.prodViewerContainer .prodThumbs div.imgThumbContainer{float:left; margin:10px 6px 0 0;}
 .prodSummaryContainer{width:610px; float:right; color: #726b59; padding: 20px;}
 .prodName{margin:0px; padding:0px; font-size:20px; color:#726A5A; font-weight:normal;}
 .prodNameTop {display:none; padding: 10px 20px 0px;}

@@ -49,7 +49,17 @@ var store_greatlookz = function() {
 				app.rq.push(['templateFunction','homepageTemplate','onDeparts',function() {
 					$('#search').show();
 				}]);
-
+				
+				app.rq.push (['templateFunction', 'productTemplate', 'onCompletes', function(P) {
+					var $context = $(app.u.jqSelector('#',P.parentID));
+					if ($('.additionalImageSection img', $context).length > 4){
+						$('.moreImages', $context).show();
+					}
+					else {
+						// It's hidden by default, so we're good
+					}
+				}]);
+				
 				return r;
 				},
 			onError : function()	{
@@ -119,6 +129,10 @@ var store_greatlookz = function() {
 					$footerBot.addClass("showCustomerService");
 					$('html, body').animate({scrollTop:$(document).height()-$(".footer").height()}, 750);
 				}
+			},
+			
+			toggleHeight : function($container){
+				$container.toggleClass('heightLimited');
 			}
 			
 			}, //Actions
