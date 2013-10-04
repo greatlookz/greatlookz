@@ -686,8 +686,10 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .prodNameTop {display:block;}
 .imageContainer {padding: 10px 44px;}
-.prodSummaryContainer{width: 280px;}
-.CRMButtonMenu {width: 150px; text-align: center;}
+.prodSummaryContainer{width: 280px; text-align: center;}
+.prodSummaryContainer .marginBottom {margin-bottom:3px;}
+.pid {font-size:10px;}
+.CRMButtonMenu {width: 150px; text-align: center; margin:0 auto;}
 .CRMButtonMenu a {padding: 0px; line-height: 22px;}
 
 .quickViewSection {display:none;}
