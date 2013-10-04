@@ -630,7 +630,7 @@ this will likely become more flexible in the future. ###
 					<div data-bind="var: product(zoovy:prod_is_tags); format:addTagSpans;" class='tagsContainer'></div>
 					<img src='blank.gif' class='prodBigImage' alt='' data-bind='var: product(zoovy:prod_image1); format:imageURL;' width='230' height='230' /> 
 				</div>
-				<div data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;' class='prodThumbs prosmallpic'>
+				<div data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;' class='additionalImageSection heightLimited prodThumbs prosmallpic'>
 					<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"2"});' class='pointer'>
 						<img src='blank.gif' data-bind='var: product(zoovy:prod_image2); format:imageURL;' alt='' width='50' height='50' />
 					</div>
@@ -676,7 +676,13 @@ this will likely become more flexible in the future. ###
 					<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"16"});' class='pointer'>
 						<img src='blank.gif' data-bind='var: product(zoovy:prod_image16); format:imageURL;' alt='' width='50' height='50' />
 					</div>
+					<div class="moreImages" onClick="toggleHeight($(this).parent());">More...</div>
 				</div>
+				<script type="text/javascript">
+					var toggleHeight = function($container){
+						$container.toggleClass('heightLimited');
+					}
+				</script>
 			
 			</div>
 			<div class='prodSummaryContainer'>

@@ -180,6 +180,10 @@ PRODUCT DETAIL PAGE (productTemplate)
 .CRMButtonMenu{margin:0; padding:0; margin-bottom:12px; padding: 5px; border-top: 2px solid #726b5b; border-bottom: 2px solid #726b5b; width:350px;}
 .CRMButtonMenu a {color: #736a59; text-transform: uppercase; padding: 0px 35px;}
 
+.additionalImageSection {background: red; color: white; position: relative;}
+.heightLimited {	height: 70px;}
+.moreImages{background: white; color: black; border: 1px solid black; width: 50px; height: 20px; position: absolute; bottom: -10px; left: 50%; margin-left: -25px;}
+
 /* primary image and thumbnails */
 .imageContainer	{width:232px; float:left; padding:20px;}
 .prodViewerContainer .prodThumbs div{float:left; margin:10px 6px 0 0;}
