@@ -114,10 +114,14 @@ css files should be included before any .js file to ensure they are downloaded i
         </span> 
         <a href="#" onClick="return showContent('customer',{'show':'myaccount'});" class="loginHide">Sign In</a><i>|</i>
         <a href="#." onClick="return showContent('customer',{'show':'myaccount'});">My Account</a>
-        <a href="#" onClick="return showContent('cart',{});">
+        <a class="displayNoneLandscape displayNonePortrait displayNoneMobile" href="#" onClick="return showContent('cart',{});">
         	<img src="images/cart.png" class="cart" />
             <span class="items">Cart <span class="cartItemCount"></span></span>
-         </a>
+        </a>
+		<a class="displayNone displayInlineLandscape displayInlinePortrait displayInlineMobile" href="#" onClick="return showContent('cart',{'show':'inline'});">
+        	<img src="images/cart.png" class="cart" />
+            <span class="items">Cart <span class="cartItemCount"></span></span>
+        </a>
        </div>
      </div>
   </div>
@@ -707,7 +711,7 @@ this will likely become more flexible in the future. ###
 				
 				<div data-bind='var:product(zoovy:qty_price);format:quantityDiscounts; extension:store_product; pretext:Quantity Discounts:; className:marginBottom;'></div>
 				
-				<div class="displayNone displayNoneLandscape displayNonePortrait displayMobile" data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
+				<div class="displayNone displayNoneLandscape displayNonePortrait displayBlockMobile" data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
 
 				<div class="socialLinks"></div>
 				

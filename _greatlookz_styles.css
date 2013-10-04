@@ -520,6 +520,7 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 /* Tablet landscape view */
 @media only screen and (min-width:641px) and (max-width:959px) {
 .displayLandscape {display:block;}
+.displayInlineLandscape {display:inline;}
 .displayNoneLandscape {display: none;}
 
 .topmenu{margin:0 auto; padding:0px; width:98%;}
@@ -560,11 +561,14 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 .CRMButtonMenu a {padding: 0px 20px;}
 
 .quickViewSection {display:none;}
+
+.cartContainer {margin-top:10px;}
 }
 
 /* Tablet portrait view */
 @media only screen and (min-width:480px) and (max-width:640px) {
-.displayPortrait{display:block;}
+.displayBlockPortrait{display:block;}
+.displayInlinePortrait {display:inline;}
 .displayNonePortrait {display: none;}
 
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:380px; width:96%;}
@@ -618,11 +622,13 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .CRMButtonMenu a {padding: 0px; line-height: 22px;}
 
 .quickViewSection {display:none;}
+.cartContainer {margin-top:10px;}
 }
 
 /* Mobile view */
 @media only screen and (max-width: 479px) {
-.displayMobile {display:block;}
+.displayBlockMobile {display:block;}
+.displayInlineMobile {display:inline;}
 .displayNoneMobile {display: none;}
 
 div#appPreView{border-radius:8px 8px 8px 8px; box-shadow:0 0 6px 2px #a7a6a4; margin:170px auto; padding:40px 20px;	max-width:250px; width:96%;}
@@ -681,6 +687,7 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .CRMButtonMenu a {padding: 0px; line-height: 22px;}
 
 .quickViewSection {display:none;}
+.cartContainer {margin-top:10px;}
 }
 
 /***** Responsiv Css Close *****/
