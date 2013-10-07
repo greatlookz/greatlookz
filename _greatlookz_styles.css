@@ -187,7 +187,7 @@ PRODUCT DETAIL PAGE (productTemplate)
 .additionalImageSection.heightLimited .moreImages {background: url(images/downarrow.jpg);}
 /* primary image and thumbnails */
 .imageContainer	{width:232px; float:left; padding:20px;}
-.prodViewerContainer .prodThumbs div.imgThumbContainer{float:left; margin:10px 6px 0 0;}
+.prodViewerContainer .prodThumbs .imgThumbContainer{float:left; margin:10px 6px 0 0;}
 .prodSummaryContainer{width:610px; float:right; color: #726b59; padding: 20px;}
 .prodName{margin:0px; padding:0px; font-size:20px; color:#726A5A; font-weight:normal;}
 .prodNameTop {display:none; padding: 10px 20px 0px;}

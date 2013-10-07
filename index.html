@@ -613,59 +613,59 @@ this will likely become more flexible in the future. ###
 		<ul class='noPadOrMargin fluidList breadcrumb clearfix' data-bind='var: session(session.recentCategories.0); format:breadcrumb; extension:store_navcats; loadsTemplate: breadcrumbTemplate;'></ul>
 		<div class="prodViewerContainer">
 			<h1 class="prodName prodNameTop displayNoneLandscape" data-bind='var: product(zoovy:prod_name); format:text;'></h1>
-			<div class="imageContainer">
-				<a class="pointer clearfix prodPageMainImage" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image1; groupingPrefix:prodPage_; groupingAttr:pid; titleAttr:%attribs.zoovy:prod_name;' data-gallery="gallery"  >
+			<div data-magnificpopup="imgContainer" class="imageContainer">
+				<a class="pointer clearfix prodPageMainImage" href='blank.gif' data-bind='var: product(zoovy:prod_image1); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 					<div data-bind="var: product(zoovy:prod_is_tags); format:addTagSpans;" class='tagsContainer'></div>
 					<img src='blank.gif' class='prodBigImage' alt='' data-bind='var: product(zoovy:prod_image1); format:imageURL;' width='230' height='230' />
 				</a>
 				<div data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;' class='additionalImageSection heightLimited prodThumbs prosmallpic'>
 					<div class="additionalImageInnerSection">
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image2; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image2); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image2); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image3; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image3); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image3); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image4; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image4); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image4); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image5; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image5); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image5); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image6; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image6); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image6); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image7; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image7); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image7); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image8; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image8); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image8); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image9; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image9); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image9); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image10; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image10); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image10); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image11; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image11); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image11); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image12; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image12); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image12); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image13; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image13); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image13); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image14; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image14); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image14); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image15; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image15); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image15); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image16; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image16); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image16); format:imageURL;' width='50' height='50' />
 						</a>
-						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image17; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+						<a class="imgThumbContainer" href='blank.gif' data-bind='var: product(zoovy:prod_image17); format:imageURL2Href; extension:tools_magnificpopup; h:550; w:550;' data-gallery="gallery"  >
 							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image17); format:imageURL;' width='50' height='50' />
 						</a>
 						<div class="clear"></div>
