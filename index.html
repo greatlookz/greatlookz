@@ -614,57 +614,60 @@ this will likely become more flexible in the future. ###
 		<div class="prodViewerContainer">
 			<h1 class="prodName prodNameTop displayNoneLandscape" data-bind='var: product(zoovy:prod_name); format:text;'></h1>
 			<div class="imageContainer">
-				<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).attr("data-pid")});' class='pointer clearfix prodPageMainImage' data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;'>
+				<a class="pointer clearfix prodPageMainImage" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image1; groupingPrefix:prodPage_; groupingAttr:pid; titleAttr:%attribs.zoovy:prod_name;' data-gallery="gallery"  >
 					<div data-bind="var: product(zoovy:prod_is_tags); format:addTagSpans;" class='tagsContainer'></div>
-					<img src='blank.gif' class='prodBigImage' alt='' data-bind='var: product(zoovy:prod_image1); format:imageURL;' width='230' height='230' /> 
-				</div>
+					<img src='blank.gif' class='prodBigImage' alt='' data-bind='var: product(zoovy:prod_image1); format:imageURL;' width='230' height='230' />
+				</a>
 				<div data-bind='var:product(pid);format:assignAttribute; attribute:data-pid;' class='additionalImageSection heightLimited prodThumbs prosmallpic'>
 					<div class="additionalImageInnerSection">
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"2"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image2); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"3"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image3); format:imageURL;' alt=''  width='50' height='50'/>
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"4"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image4); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"5"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image5); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"6"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image6); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"7"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image7); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"8"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image8); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"9"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image9); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"10"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image10); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"11"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image11); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"12"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image12); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"13"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image13); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"14"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image14); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"15"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image15); format:imageURL;' alt='' width='50' height='50' />
-						</div>
-						<div onClick='app.ext.store_product.u.showPicsInModal({"pid":$(this).parent().attr("data-pid"),"int":"16"});' class='pointer imgThumbContainer'>
-							<img src='blank.gif' data-bind='var: product(zoovy:prod_image16); format:imageURL;' alt='' width='50' height='50' />
-						</div>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image2; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image2); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image3; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image3); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image4; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image4); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image5; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image5); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image6; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image6); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image7; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image7); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image8; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image8); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image9; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image9); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image10; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image10); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image11; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image11); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image12; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image12); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image13; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image13); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image14; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image14); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image15; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image15); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image16; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image16); format:imageURL;' width='50' height='50' />
+						</a>
+						<a class="imgThumbContainer" href='blank.gif' data-bind='useParentData:true; format:lightboxLink; extension:tools_lightbox; w: 300; h: 300; hrefAttr:%attribs.zoovy:prod_image17; groupingPrefix:prodPage_; groupingAttr:pid;' data-gallery="gallery"  >
+							<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image17); format:imageURL;' width='50' height='50' />
+						</a>
 						<div class="clear"></div>
 					</div>
 					<div class="moreImages displayNone" onClick="app.ext.store_greatlookz.a.toggleHeight($(this).parent());"></div>
