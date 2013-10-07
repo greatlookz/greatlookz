@@ -695,6 +695,9 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .quickViewSection {display:none;}
 .cartContainer {margin-top:10px;}
+.cartStuffContainer {padding: 0px;}
+.cartZipCodeContainer, .cartAltButtonsContainer, .cartSummaryContainer {padding: 0px 8px;}
+.proborview li{padding:10px; width:93%;}
 }
 
 /***** Responsiv Css Close *****/
