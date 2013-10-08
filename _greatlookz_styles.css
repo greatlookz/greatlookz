@@ -183,7 +183,7 @@ PRODUCT DETAIL PAGE (productTemplate)
 .additionalImageSection {position: relative;}
 .additionalImageInnerSection{overflow:hidden; height: 100%;}
 .heightLimited {	height: 63px;}
-.additionalImageSection .moreImages {background: url(images/uparrow.jpg); border: 1px solid #000000; border-radius: 7px; width: 15px; height: 15px; position: absolute; bottom: -20px; left: 45%;}
+.additionalImageSection .moreImages {background: url(images/uparrow.jpg); border: 1px solid #000000; border-radius: 11px; width: 21px; height: 21px; position: absolute; bottom: -26px; left: 44%;}
 .additionalImageSection.heightLimited .moreImages {background: url(images/downarrow.jpg);}
 /* primary image and thumbnails */
 .imageContainer	{width:232px; float:left; padding:20px;}
@@ -192,6 +192,8 @@ PRODUCT DETAIL PAGE (productTemplate)
 .prodName{margin:0px; padding:0px; font-size:20px; color:#726A5A; font-weight:normal;}
 .prodNameTop {display:none; padding: 10px 20px 0px;}
 .tabbedProductContent .prodReviewsTab{display:block;} /* reviews tab always shows up */
+
+.imageselect_image img {border: 1px solid #000000;}
 
 /*
 the child list and loading graphic should only show up IF the product is a parent.
