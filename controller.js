@@ -2710,8 +2710,8 @@ return $r;
 	renderFormats : {
 		imageURL2Href : function($tag,data)	{
 			data.bindData.name = (data.bindData.valuePretext) ? data.bindData.valuePretext+data.value : data.value;
-			data.bindData.w = $tag.attr('width');
-			data.bindData.h = $tag.attr('height');
+			//data.bindData.w = $tag.attr('width');
+			//data.bindData.h = $tag.attr('height');
 			data.bindData.tag = 0;
 			$tag.attr('href',app.u.makeImage(data.bindData)); //passing in bindData allows for using
 			},
