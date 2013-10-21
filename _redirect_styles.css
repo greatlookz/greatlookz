@@ -1,4 +1,3 @@
-body {color: #4E4D49;}
 .ui-widget-overlay {
     background: #515151;
     opacity: 0.45;
@@ -14,15 +13,20 @@ body {color: #4E4D49;}
 	background: #f8f7f2;
 	padding: 20px;
 	z-index:100;
+	color: #4E4D49;
 }
-button {
+.redirectToSiteApp.ui-dialog-content.ui-widget-content {
+    background: none repeat scroll 0 0 #F8F7F2;
+    padding: 20px;
+}
+.ui-button.ui-state-default.ui-button-text-only {
     background: none repeat scroll 0 0 #F8F7F2;
     border: 1px solid #4E4D49;
     font-weight: bold;
     padding: 8px;
 	color: #4E4D49;  
 }
-button:hover{
+.ui-button.ui-state-default.ui-button-text-only:hover{
 	color: #CC7485;
 }
 .redirectModal .ui-dialog-titlebar-close,
