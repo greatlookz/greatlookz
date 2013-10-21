@@ -1,0 +1,35 @@
+body {color: #4E4D49;}
+.ui-widget-overlay {
+    background: #515151;
+    opacity: 0.45;
+	height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.ui-widget-content{
+	border: 1px solid #797979;
+	background: #f8f7f2;
+	padding: 20px;
+}
+button {
+    background: none repeat scroll 0 0 #F8F7F2;
+    border: 1px solid #4E4D49;
+    font-weight: bold;
+    padding: 8px;
+	color: #4E4D49;  
+}
+button:hover{
+	color: #CC7485;
+}
+.hideDialog .ui-dialog-titlebar-close,
+.hideDialog .ui-dialog-titlebar {
+	display: none;
+}
+.redirectToSiteApp {text-align:center;}
+
+.floatLeft {float: left;}
+.floatRight{float: right;}
+
+.stopFutureRedirectMessage {display:none;}
