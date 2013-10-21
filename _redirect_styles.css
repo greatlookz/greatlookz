@@ -9,7 +9,7 @@ body {color: #4E4D49;}
     width: 100%;
 	z-index:99;
 }
-.redirectModal .ui-widget-content{
+.redirectModal.ui-widget-content{
 	border: 1px solid #797979;
 	background: #f8f7f2;
 	padding: 20px;
