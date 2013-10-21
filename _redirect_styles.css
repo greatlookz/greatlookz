@@ -34,6 +34,7 @@
 	display: none;
 }
 .redirectToSiteApp {text-align:center;}
+.autoRedirectToSiteApp {text-align:center;}
 
 .floatLeft {float: left;}
 .floatRight{float: right;}
