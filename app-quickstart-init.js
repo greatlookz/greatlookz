@@ -18,7 +18,7 @@ app.rq.push(['extension',0,'store_greatlookz','extensions/store_greatlookz.js'])
 app.rq.push(['extension',0,'myRIA','app-quickstart.js','startMyProgram']);
 
 app.rq.push(['extension',0,'tools_magnificpopup','extensions/tools_magnificpopup/extension.js']);
-//app.rq.push(['extension',1,'google_analytics','extensions/partner_google_analytics.js','startExtension']);
+app.rq.push(['extension',1,'google_analytics','extensions/partner_google_analytics.js','startExtension']);
 app.rq.push(['extension',1,'tools_ABtesting','extensions/tools_ABtesting.js']);
 //app.rq.push(['extension',0,'partner_addthis','extensions/partner_addthis.js','startExtension']);
 //app.rq.push(['extension',1,'resellerratings_survey','extensions/partner_buysafe_guarantee.js','startExtension']); /// !!! needs testing.
