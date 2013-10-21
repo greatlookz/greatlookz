@@ -7,11 +7,13 @@ body {color: #4E4D49;}
     position: fixed;
     top: 0;
     width: 100%;
+	z-index:99;
 }
 .ui-widget-content{
 	border: 1px solid #797979;
 	background: #f8f7f2;
 	padding: 20px;
+	z-index:100;
 }
 button {
     background: none repeat scroll 0 0 #F8F7F2;
