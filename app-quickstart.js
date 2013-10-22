@@ -2315,7 +2315,7 @@ effects the display of the nav buttons only. should be run just after the handle
 if you are going to override any of the defaults in the elasticsearch, such as size, do it here BEFORE the elasticsearch is added as data on teh $page.
 ex:  elasticsearch.size = 200
 */
-elasticsearch.size = 50;
+elasticsearch.size = 24;
 
 				_tag = {'callback':'handleElasticResults','extension':'store_search','templateID':'productListTemplateResults','list':$('#resultsProductListContainer')};
 				_tag.datapointer = "appPublicSearch|"+JSON.stringify(elasticsearch);

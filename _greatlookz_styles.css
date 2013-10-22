@@ -313,7 +313,19 @@ CUSTOMER PAGES
 SEARCH RESULTS PAGE
 
 ***************************************************/
-
+.moreDetails{
+	background: none repeat scroll 0 0 #CA5170;
+    border: 1px solid #000000;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 130px;
+	height:27px;
+	line-height:27px;
+	margin: 0 auto;
+}
+.previewListContainer .ui-widget-content {border-radius: 4px; margin-top: 10px;}
+.previewListContainer .ui-widget-header {background: none; border: none;}
 #mainContentArea_search	{position:relative;}
 .resultsHeader	{position:relative; padding:3px 6px;}
 .resultsMenuContainer	{position:absolute; top:1px; left:3px;}
@@ -578,6 +590,11 @@ div#appPreView h3{font-size:12px; color:#5e5643; padding:5px 0 0 0;}
 .quickViewSection {display:none;}
 
 .cartContainer {margin-top:10px;}
+
+#resultsProductListContainer {
+    margin: 0 auto;
+    max-width: 465px;
+}
 }
 
 /* Tablet portrait view */
@@ -636,6 +653,11 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 
 .quickViewSection {display:none;}
 .cartContainer {margin-top:10px;}
+
+#resultsProductListContainer {
+    margin: 0 auto;
+    max-width: 465px;
+}
 }
 
 /* Mobile view */
@@ -706,6 +728,11 @@ div#appPreView table div#loader > div.alignCenter > progress{border-color: #3528
 .cartStuffContainer {padding: 0px;}
 .cartZipCodeContainer, .cartAltButtonsContainer, .cartSummaryContainer {padding: 0px 8px;}
 .proborview li{padding:10px; width:93%;}
+
+#resultsProductListContainer {
+    margin: 0 auto;
+    max-width: 225px;
+}
 }
 
 /***** Responsiv Css Close *****/
