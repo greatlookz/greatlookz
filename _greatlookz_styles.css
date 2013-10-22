@@ -269,6 +269,14 @@ cartTemplate
 ***************************************************/
 .cartContainer{width:100%;}
 #mainContentArea_cart .continueShoppingButton{display:none;} /* used in modal cart only */
+.ui-button-text.ui-button.ui-state-default.ui-corner-all.continueShoppingButton {
+    height: 25px;
+    width: 120px;
+}
+.ui-button-text.ui-button.ui-state-default.ui-corner-all.checkoutButton {
+    height: 25px;
+    width: 120px;
+}
 
 /***************************************************
 
